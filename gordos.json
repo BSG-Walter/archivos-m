@@ -1,0 +1,1414 @@
+{
+  "version": "1.0.0",
+  "rss": "<LINK TO RSS FEED>",
+  "discord": {
+    "clientId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+    "smallImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+    "smallImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+  },
+  "servers": [
+    {
+      "id": "gordos-1.16.5",
+      "name": "gordos (Minecraft 1.16.5)",
+      "description": "gordos Running Minecraft 1.16.5 (Forge v36.2.42)",
+      "icon": null,
+      "version": "1.0.0",
+      "address": "localhost:25565",
+      "minecraftVersion": "1.16.5",
+      "discord": {
+        "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+        "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+        "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+      },
+      "mainServer": false,
+      "autoconnect": false,
+      "modules": [
+        {
+          "id": "net.minecraftforge:forge:1.16.5-36.2.42",
+          "name": "Minecraft Forge (base jar)",
+          "type": "ForgeHosted",
+          "classpath": true,
+          "artifact": {
+            "size": 212563,
+            "MD5": "8ff0086ade0cf0f1d513e72edd04348c",
+            "url": "http://raw.githubusercontent.com/BSG-Walter/archivos-m/main/repo/lib/net/minecraftforge/forge/1.16.5-36.2.42/forge-1.16.5-36.2.42.jar"
+          },
+          "subModules": [
+            {
+              "id": "1.16.5-36.2.42",
+              "name": "Minecraft Forge (version.json)",
+              "type": "VersionManifest",
+              "artifact": {
+                "size": 13577,
+                "MD5": "f38b527e26e0a0165e2118970d1a4d13",
+                "url": "http://raw.githubusercontent.com/BSG-Walter/archivos-m/main/repo/versions/1.16.5-forge-36.2.42/1.16.5-forge-36.2.42.json"
+              }
+            },
+            {
+              "id": "net.minecraftforge:forge:1.16.5-36.2.42:universal",
+              "name": "Minecraft Forge (universal jar)",
+              "type": "Library",
+              "classpath": true,
+              "artifact": {
+                "size": 2540080,
+                "MD5": "d5b89861a4e02bab15a111d529d99d86",
+                "url": "http://raw.githubusercontent.com/BSG-Walter/archivos-m/main/repo/lib/net/minecraftforge/forge/1.16.5-36.2.42/forge-1.16.5-36.2.42-universal.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraftforge:forge:1.16.5-36.2.42:client",
+              "name": "Minecraft Forge (client jar)",
+              "type": "Library",
+              "classpath": true,
+              "artifact": {
+                "size": 4214276,
+                "MD5": "e26430416f5d1bd7c205c1b81a0fb8f8",
+                "url": "http://raw.githubusercontent.com/BSG-Walter/archivos-m/main/repo/lib/net/minecraftforge/forge/1.16.5-36.2.42/forge-1.16.5-36.2.42-client.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraft:client:1.16.5-20210115.111550:srg",
+              "name": "Minecraft Forge (client srg)",
+              "type": "Library",
+              "classpath": true,
+              "artifact": {
+                "size": 11352644,
+                "MD5": "db2504a189e617c7ae75d69268f1a4b0",
+                "url": "http://raw.githubusercontent.com/BSG-Walter/archivos-m/main/repo/lib/net/minecraft/client/1.16.5-20210115.111550/client-1.16.5-20210115.111550-srg.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraft:client:1.16.5-20210115.111550:slim",
+              "name": "Minecraft Forge (client slim)",
+              "type": "Library",
+              "classpath": true,
+              "artifact": {
+                "size": 9118806,
+                "MD5": "df78297c0b6526e16f2bb7a685fd6b96",
+                "url": "http://raw.githubusercontent.com/BSG-Walter/archivos-m/main/repo/lib/net/minecraft/client/1.16.5-20210115.111550/client-1.16.5-20210115.111550-slim.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraft:client:1.16.5-20210115.111550:extra",
+              "name": "Minecraft Forge (client extra)",
+              "type": "Library",
+              "classpath": true,
+              "artifact": {
+                "size": 8428369,
+                "MD5": "dbed747390f81e10cee40500b726431a",
+                "url": "http://raw.githubusercontent.com/BSG-Walter/archivos-m/main/repo/lib/net/minecraft/client/1.16.5-20210115.111550/client-1.16.5-20210115.111550-extra.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "org.ow2.asm:asm:9.6",
+              "name": "Minecraft Forge (asm)",
+              "type": "Library",
+              "artifact": {
+                "size": 123598,
+                "MD5": "6f8bccf756f170d4185bb24c8c2d2020",
+                "url": "http://raw.githubusercontent.com/BSG-Walter/archivos-m/main/repo/lib/org/ow2/asm/asm/9.6/asm-9.6.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-commons:9.6",
+              "name": "Minecraft Forge (asm-commons)",
+              "type": "Library",
+              "artifact": {
+                "size": 72194,
+                "MD5": "9e317c75534bd1da8c00a67c618ab288",
+                "url": "http://raw.githubusercontent.com/BSG-Walter/archivos-m/main/repo/lib/org/ow2/asm/asm-commons/9.6/asm-commons-9.6.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-tree:9.6",
+              "name": "Minecraft Forge (asm-tree)",
+              "type": "Library",
+              "artifact": {
+                "size": 51935,
+                "MD5": "6062608f1a98afe1e853d01fa1221a9e",
+                "url": "http://raw.githubusercontent.com/BSG-Walter/archivos-m/main/repo/lib/org/ow2/asm/asm-tree/9.6/asm-tree-9.6.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-util:9.6",
+              "name": "Minecraft Forge (asm-util)",
+              "type": "Library",
+              "artifact": {
+                "size": 91131,
+                "MD5": "bd3bc1c176a787373e9a031073c9574b",
+                "url": "http://raw.githubusercontent.com/BSG-Walter/archivos-m/main/repo/lib/org/ow2/asm/asm-util/9.6/asm-util-9.6.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-analysis:9.6",
+              "name": "Minecraft Forge (asm-analysis)",
+              "type": "Library",
+              "artifact": {
+                "size": 34041,
+                "MD5": "31c84ef7cc893fb278952ae2d6a2674f",
+                "url": "http://raw.githubusercontent.com/BSG-Walter/archivos-m/main/repo/lib/org/ow2/asm/asm-analysis/9.6/asm-analysis-9.6.jar"
+              }
+            },
+            {
+              "id": "cpw.mods:modlauncher:8.1.3",
+              "name": "Minecraft Forge (modlauncher)",
+              "type": "Library",
+              "artifact": {
+                "size": 126747,
+                "MD5": "b6ba74224a6a68e6fb3e9cf3d72b9344",
+                "url": "http://raw.githubusercontent.com/BSG-Walter/archivos-m/main/repo/lib/cpw/mods/modlauncher/8.1.3/modlauncher-8.1.3.jar"
+              }
+            },
+            {
+              "id": "cpw.mods:grossjava9hacks:1.3.3",
+              "name": "Minecraft Forge (grossjava9hacks)",
+              "type": "Library",
+              "artifact": {
+                "size": 2113,
+                "MD5": "d19b487241008d8e6111137a289ea1d7",
+                "url": "http://raw.githubusercontent.com/BSG-Walter/archivos-m/main/repo/lib/cpw/mods/grossjava9hacks/1.3.3/grossjava9hacks-1.3.3.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:accesstransformers:3.0.1",
+              "name": "Minecraft Forge (accesstransformers)",
+              "type": "Library",
+              "artifact": {
+                "size": 76586,
+                "MD5": "ada4c365c3d0de73c05a94010432b547",
+                "url": "http://raw.githubusercontent.com/BSG-Walter/archivos-m/main/repo/lib/net/minecraftforge/accesstransformers/3.0.1/accesstransformers-3.0.1.jar"
+              }
+            },
+            {
+              "id": "org.antlr:antlr4-runtime:4.9.1",
+              "name": "Minecraft Forge (antlr4-runtime)",
+              "type": "Library",
+              "artifact": {
+                "size": 337868,
+                "MD5": "0dcc4b860d5d8d2852ab94d58c56ca2d",
+                "url": "http://raw.githubusercontent.com/BSG-Walter/archivos-m/main/repo/lib/org/antlr/antlr4-runtime/4.9.1/antlr4-runtime-4.9.1.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:eventbus:4.0.0",
+              "name": "Minecraft Forge (eventbus)",
+              "type": "Library",
+              "artifact": {
+                "size": 42873,
+                "MD5": "84c4758e6139b70146104be5bb1300b5",
+                "url": "http://raw.githubusercontent.com/BSG-Walter/archivos-m/main/repo/lib/net/minecraftforge/eventbus/4.0.0/eventbus-4.0.0.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:forgespi:3.2.0",
+              "name": "Minecraft Forge (forgespi)",
+              "type": "Library",
+              "artifact": {
+                "size": 20172,
+                "MD5": "8f1f6942d17d88d704324e8000666a1a",
+                "url": "http://raw.githubusercontent.com/BSG-Walter/archivos-m/main/repo/lib/net/minecraftforge/forgespi/3.2.0/forgespi-3.2.0.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:coremods:4.0.6",
+              "name": "Minecraft Forge (coremods)",
+              "type": "Library",
+              "artifact": {
+                "size": 25453,
+                "MD5": "e56551f2586d3ff08beb24f5ea44a7d3",
+                "url": "http://raw.githubusercontent.com/BSG-Walter/archivos-m/main/repo/lib/net/minecraftforge/coremods/4.0.6/coremods-4.0.6.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:unsafe:0.2.0",
+              "name": "Minecraft Forge (unsafe)",
+              "type": "Library",
+              "artifact": {
+                "size": 2834,
+                "MD5": "2d1016ebe4c1a63dd50a59d26bd12db1",
+                "url": "http://raw.githubusercontent.com/BSG-Walter/archivos-m/main/repo/lib/net/minecraftforge/unsafe/0.2.0/unsafe-0.2.0.jar"
+              }
+            },
+            {
+              "id": "com.electronwill.night-config:core:3.6.3",
+              "name": "Minecraft Forge (core)",
+              "type": "Library",
+              "artifact": {
+                "size": 199091,
+                "MD5": "093b0ca357d3f8b922170b8d7f43948c",
+                "url": "http://raw.githubusercontent.com/BSG-Walter/archivos-m/main/repo/lib/com/electronwill/night-config/core/3.6.3/core-3.6.3.jar"
+              }
+            },
+            {
+              "id": "com.electronwill.night-config:toml:3.6.3",
+              "name": "Minecraft Forge (toml)",
+              "type": "Library",
+              "artifact": {
+                "size": 31288,
+                "MD5": "615b8e62371c536f876764591990118d",
+                "url": "http://raw.githubusercontent.com/BSG-Walter/archivos-m/main/repo/lib/com/electronwill/night-config/toml/3.6.3/toml-3.6.3.jar"
+              }
+            },
+            {
+              "id": "org.jline:jline:3.12.1",
+              "name": "Minecraft Forge (jline)",
+              "type": "Library",
+              "artifact": {
+                "size": 732926,
+                "MD5": "ffd8c9d6eb8a8456ef505c8ef9fc777d",
+                "url": "http://raw.githubusercontent.com/BSG-Walter/archivos-m/main/repo/lib/org/jline/jline/3.12.1/jline-3.12.1.jar"
+              }
+            },
+            {
+              "id": "org.apache.maven:maven-artifact:3.6.3",
+              "name": "Minecraft Forge (maven-artifact)",
+              "type": "Library",
+              "artifact": {
+                "size": 57824,
+                "MD5": "b83c1943a0783f3f81d4cd4c83c363e1",
+                "url": "http://raw.githubusercontent.com/BSG-Walter/archivos-m/main/repo/lib/org/apache/maven/maven-artifact/3.6.3/maven-artifact-3.6.3.jar"
+              }
+            },
+            {
+              "id": "net.jodah:typetools:0.8.3",
+              "name": "Minecraft Forge (typetools)",
+              "type": "Library",
+              "artifact": {
+                "size": 15425,
+                "MD5": "ee4596e1413cc1a5e080c971d6064753",
+                "url": "http://raw.githubusercontent.com/BSG-Walter/archivos-m/main/repo/lib/net/jodah/typetools/0.8.3/typetools-0.8.3.jar"
+              }
+            },
+            {
+              "id": "org.apache.logging.log4j:log4j-api:2.15.0",
+              "name": "Minecraft Forge (log4j-api)",
+              "type": "Library",
+              "artifact": {
+                "size": 301804,
+                "MD5": "a9ccfa7e3382dd2b9e0647a43d8286d7",
+                "url": "http://raw.githubusercontent.com/BSG-Walter/archivos-m/main/repo/lib/org/apache/logging/log4j/log4j-api/2.15.0/log4j-api-2.15.0.jar"
+              }
+            },
+            {
+              "id": "org.apache.logging.log4j:log4j-core:2.15.0",
+              "name": "Minecraft Forge (log4j-core)",
+              "type": "Library",
+              "artifact": {
+                "size": 1789769,
+                "MD5": "81e0433ae00602c0e4d00424d213b0ab",
+                "url": "http://raw.githubusercontent.com/BSG-Walter/archivos-m/main/repo/lib/org/apache/logging/log4j/log4j-core/2.15.0/log4j-core-2.15.0.jar"
+              }
+            },
+            {
+              "id": "org.apache.logging.log4j:log4j-slf4j18-impl:2.15.0",
+              "name": "Minecraft Forge (log4j-slf4j18-impl)",
+              "type": "Library",
+              "artifact": {
+                "size": 21223,
+                "MD5": "196442f1bdde4dbb0f576eed616e21b0",
+                "url": "http://raw.githubusercontent.com/BSG-Walter/archivos-m/main/repo/lib/org/apache/logging/log4j/log4j-slf4j18-impl/2.15.0/log4j-slf4j18-impl-2.15.0.jar"
+              }
+            },
+            {
+              "id": "net.minecrell:terminalconsoleappender:1.2.0",
+              "name": "Minecraft Forge (terminalconsoleappender)",
+              "type": "Library",
+              "artifact": {
+                "size": 15977,
+                "MD5": "679363fa893293791e55a21f81342f87",
+                "url": "http://raw.githubusercontent.com/BSG-Walter/archivos-m/main/repo/lib/net/minecrell/terminalconsoleappender/1.2.0/terminalconsoleappender-1.2.0.jar"
+              }
+            },
+            {
+              "id": "net.sf.jopt-simple:jopt-simple:5.0.4",
+              "name": "Minecraft Forge (jopt-simple)",
+              "type": "Library",
+              "artifact": {
+                "size": 78146,
+                "MD5": "eb0d9dffe9b0eddead68fe678be76c49",
+                "url": "http://raw.githubusercontent.com/BSG-Walter/archivos-m/main/repo/lib/net/sf/jopt-simple/jopt-simple/5.0.4/jopt-simple-5.0.4.jar"
+              }
+            },
+            {
+              "id": "org.spongepowered:mixin:0.8.4",
+              "name": "Minecraft Forge (mixin)",
+              "type": "Library",
+              "artifact": {
+                "size": 1069391,
+                "MD5": "25fbb8ff965e88cc2252c99be0cf5cbb",
+                "url": "http://raw.githubusercontent.com/BSG-Walter/archivos-m/main/repo/lib/org/spongepowered/mixin/0.8.4/mixin-0.8.4.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:nashorn-core-compat:15.1.1.1",
+              "name": "Minecraft Forge (nashorn-core-compat)",
+              "type": "Library",
+              "artifact": {
+                "size": 2194057,
+                "MD5": "ae37ed8407982eefc9f85fdb1c95a3a0",
+                "url": "http://raw.githubusercontent.com/BSG-Walter/archivos-m/main/repo/lib/net/minecraftforge/nashorn-core-compat/15.1.1.1/nashorn-core-compat-15.1.1.1.jar"
+              }
+            }
+          ]
+        },
+        {
+          "id": "net.geforcemods:securitycraft:v1.9.10.1@jar",
+          "name": "SecurityCraft",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 3784436,
+            "url": "http://raw.githubusercontent.com/BSG-Walter/archivos-m/main/servers/gordos-1.16.5/forgemods/required/[1.16.5]%20SecurityCraft%20v1.9.10.1.jar",
+            "MD5": "2e9f80a7453d8dc0e857dc251412fa90"
+          }
+        },
+        {
+          "id": "com.minecraftabnormals.abnormals_core.core:abnormals_core:3.3.1@jar",
+          "name": "Abnormals Core",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 975979,
+            "url": "http://raw.githubusercontent.com/BSG-Walter/archivos-m/main/servers/gordos-1.16.5/forgemods/required/[c]abnormals_core-1.16.5-3.3.1.jar",
+            "MD5": "0c91b63a7f5863a10c2f1dfd7bf604af"
+          }
+        },
+        {
+          "id": "net.darkhax:bookshelf:10.4.33@jar",
+          "name": "Bookshelf",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 317032,
+            "url": "http://raw.githubusercontent.com/BSG-Walter/archivos-m/main/servers/gordos-1.16.5/forgemods/required/[c]Bookshelf-Forge-1.16.5-10.4.33.jar",
+            "MD5": "9f5a57a605dafdd21e48b55fa0aa4fc4"
+          }
+        },
+        {
+          "id": "com.mrcrayfish.guns:cgm:1.2.6@jar",
+          "name": "MrCrayfish's Gun Mod",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1607217,
+            "url": "http://raw.githubusercontent.com/BSG-Walter/archivos-m/main/servers/gordos-1.16.5/forgemods/required/[c]cgm-1.2.6-1.16.5.jar",
+            "MD5": "3d15af75addf26471e870654a0c6df87"
+          }
+        },
+        {
+          "id": "com.github.alexthe666:citadel:1.8.1@jar",
+          "name": "Citadel",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 482439,
+            "url": "http://raw.githubusercontent.com/BSG-Walter/archivos-m/main/servers/gordos-1.16.5/forgemods/required/[c]citadel-1.8.1-1.16.5.jar",
+            "MD5": "9ee0682eec5d343c6238e30c21c98e69"
+          }
+        },
+        {
+          "id": "me.shedaniel.clothconfig:cloth-config:4.17.101@jar",
+          "name": "Cloth Config v4 API",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1452545,
+            "url": "http://raw.githubusercontent.com/BSG-Walter/archivos-m/main/servers/gordos-1.16.5/forgemods/required/[c]cloth-config-4.17.101-forge.jar",
+            "MD5": "5cedc05e7502ce5f46067f28eb1798e2"
+          }
+        },
+        {
+          "id": "cofh.core:cofh_core:1.5.2.22@jar",
+          "name": "CoFH Core",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1443038,
+            "url": "http://raw.githubusercontent.com/BSG-Walter/archivos-m/main/servers/gordos-1.16.5/forgemods/required/[c]cofh_core-1.16.5-1.5.2.22.jar",
+            "MD5": "975c14d7c4237d845bff570cbc3b495d"
+          }
+        },
+        {
+          "id": "top.theillusivec4:curios:1.16.5-4.1.0.0@jar",
+          "name": "Curios API",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 291897,
+            "url": "http://raw.githubusercontent.com/BSG-Walter/archivos-m/main/servers/gordos-1.16.5/forgemods/required/[c]curios-forge-1.16.5-4.1.0.0.jar",
+            "MD5": "4f71bcd532f9a3c8b051ef30787bd404"
+          }
+        },
+        {
+          "id": "org.cyclops:cyclopscore:1.13.0@jar",
+          "name": "Cyclops Core",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 855134,
+            "url": "http://raw.githubusercontent.com/BSG-Walter/archivos-m/main/servers/gordos-1.16.5/forgemods/required/[c]CyclopsCore-1.16.5-1.13.0.jar",
+            "MD5": "bc46d892ae97ffd2ae4ba5fc039d8c07"
+          }
+        },
+        {
+          "id": "com.jozufozu:flywheel:1.16-0.2.5@jar",
+          "name": "Flywheel",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 420923,
+            "url": "http://raw.githubusercontent.com/BSG-Walter/archivos-m/main/servers/gordos-1.16.5/forgemods/required/[c]flywheel-1.16-0.2.5.jar",
+            "MD5": "0964200fddbd4ff67dfab63c5aae161a"
+          }
+        },
+        {
+          "id": "software.bernie.example:geckolib3:3.0.106@jar",
+          "name": "GeckoLib",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 3559283,
+            "url": "http://raw.githubusercontent.com/BSG-Walter/archivos-m/main/servers/gordos-1.16.5/forgemods/required/[c]geckolib-forge-1.16.5-3.0.106.jar",
+            "MD5": "6f4524eea52474c58280c2b0ac06e1e0"
+          }
+        },
+        {
+          "id": "me.ichun.mods:ichunutil:10.7.0@jar",
+          "name": "IChunUtil",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 597557,
+            "url": "http://raw.githubusercontent.com/BSG-Walter/archivos-m/main/servers/gordos-1.16.5/forgemods/required/[c]iChunUtil-1.16.5-10.7.0.jar",
+            "MD5": "7e7726b92b43e65e10cf7742ee32fcb6"
+          }
+        },
+        {
+          "id": "com.mrcrayfish:obfuscate:0.6.3@jar",
+          "name": "Obfuscate",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 142536,
+            "url": "http://raw.githubusercontent.com/BSG-Walter/archivos-m/main/servers/gordos-1.16.5/forgemods/required/[c]obfuscate-0.6.3-1.16.5.jar",
+            "MD5": "514fe4c6c39bc1b7e474d813daab593e"
+          }
+        },
+        {
+          "id": "vazkii.patchouli.common.base:patchouli:1.16.4-53.3@jar",
+          "name": "Patchouli",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 593352,
+            "url": "http://raw.githubusercontent.com/BSG-Walter/archivos-m/main/servers/gordos-1.16.5/forgemods/required/[c]Patchouli-1.16.4-53.3.jar",
+            "MD5": "a4791ba66914beed9bb755ae1a84ca87"
+          }
+        },
+        {
+          "id": "shadows.placebo:placebo:4.7.1@jar",
+          "name": "Placebo",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 174158,
+            "url": "http://raw.githubusercontent.com/BSG-Walter/archivos-m/main/servers/gordos-1.16.5/forgemods/required/[c]Placebo-1.16.5-4.7.1.jar",
+            "MD5": "b9436888ceffed9622ce58e0d71f8fd2"
+          }
+        },
+        {
+          "id": "net.darkhax:runelic:7.0.3@jar",
+          "name": "Runelic",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 11277,
+            "url": "http://raw.githubusercontent.com/BSG-Walter/archivos-m/main/servers/gordos-1.16.5/forgemods/required/[c]Runelic-1.16.5-7.0.3.jar",
+            "MD5": "9f278866f6c517c389584d6da309c859"
+          }
+        },
+        {
+          "id": "net.mehvahdjukaar:selene:1.16.5-1.0@jar",
+          "name": "Selene",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 218460,
+            "url": "http://raw.githubusercontent.com/BSG-Walter/archivos-m/main/servers/gordos-1.16.5/forgemods/required/[c]selene-1.16.5-1.9.0.jar",
+            "MD5": "2edb1ffe6040a68d242bd80cec3cb98d"
+          }
+        },
+        {
+          "id": "net.valhelsia:valhelsia_core:16.0.15@jar",
+          "name": "Valhelsia Core",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 608118,
+            "url": "http://raw.githubusercontent.com/BSG-Walter/archivos-m/main/servers/gordos-1.16.5/forgemods/required/[c]valhelsia_core-16.0.15.jar",
+            "MD5": "39bfa258ac7c15b3787838df57b4d872"
+          }
+        },
+        {
+          "id": "it.zerono.mods:zerocore:1.16.5-2.1.39@jar",
+          "name": "Zero CORE 2",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1150394,
+            "url": "http://raw.githubusercontent.com/BSG-Walter/archivos-m/main/servers/gordos-1.16.5/forgemods/required/[c]ZeroCore2-1.16.5-2.1.39.jar",
+            "MD5": "895b34ff4825f25b8be1870e1af98282"
+          }
+        },
+        {
+          "id": "me.treyruffy:betterf3:1.5.0@jar",
+          "name": "BetterF3",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 447347,
+            "url": "http://raw.githubusercontent.com/BSG-Walter/archivos-m/main/servers/gordos-1.16.5/forgemods/optionalon/[o]BetterF3-1.5.0-Forge-1.16.5.jar",
+            "MD5": "1e7a88c7200ca1670947f1e512ceb63f"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "me.jellysquid.mods.sodium.client:embeddium:0.3.18+mc1.16.5@jar",
+          "name": "Embeddium",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 806163,
+            "url": "http://raw.githubusercontent.com/BSG-Walter/archivos-m/main/servers/gordos-1.16.5/forgemods/required/[o]embeddium-0.3.18+mc1.16.5.jar",
+            "MD5": "c3cc4f69081a25f8606c292cfe114717"
+          }
+        },
+        {
+          "id": "com.teampotato.embeddiumextension.client:embeddiumextension:1.16.5-0.1.1@jar",
+          "name": "EmbeddiumExtension",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 144248,
+            "url": "http://raw.githubusercontent.com/BSG-Walter/archivos-m/main/servers/gordos-1.16.5/forgemods/required/[o]embeddiumextension-1.16.5-0.1.1.jar",
+            "MD5": "af9aaa4aae998e5e217354cc657fcd4b"
+          }
+        },
+        {
+          "id": "com.teampotato:embeddiumextras:1.11.9@jar",
+          "name": "Embeddium Extras",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 106252,
+            "url": "http://raw.githubusercontent.com/BSG-Walter/archivos-m/main/servers/gordos-1.16.5/forgemods/required/[o]embeddiumextras-mc1.16.5_v1.11.9.jar",
+            "MD5": "3512ced284511082ef9ec88cd5dcbf25"
+          }
+        },
+        {
+          "id": "traben.entity_texture_features:entity_texture_features:4.3.1@jar",
+          "name": "Entity Texture Features",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 362196,
+            "url": "http://raw.githubusercontent.com/BSG-Walter/archivos-m/main/servers/gordos-1.16.5/forgemods/required/[o]entity_texture_features_forge_1.16.5-4.3.1.jar",
+            "MD5": "ec7fd8e3f8ced5e6e2906f87b42af1b8"
+          }
+        },
+        {
+          "id": "dev.tr7zw:entityculling:1.5.2@jar",
+          "name": "EntityCulling",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 46532,
+            "url": "http://raw.githubusercontent.com/BSG-Walter/archivos-m/main/servers/gordos-1.16.5/forgemods/required/[o]entityculling-forge-mc1.16.5-1.5.2.jar",
+            "MD5": "8696ac24f0d209aadaf754bed9c2e1f6"
+          }
+        },
+        {
+          "id": "malte0811.ferritecore:ferritecore:2.1.1@jar",
+          "name": "Ferrite Core",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 108557,
+            "url": "http://raw.githubusercontent.com/BSG-Walter/archivos-m/main/servers/gordos-1.16.5/forgemods/required/[o]ferritecore-2.1.1-forge.jar",
+            "MD5": "6a96a36de00e5d8e9bf2e87634d13125"
+          }
+        },
+        {
+          "id": "bre2el.fpsreducer:fpsreducer:1.24-mc1.16.5@jar",
+          "name": "FPS Reducer",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 95076,
+            "url": "http://raw.githubusercontent.com/BSG-Walter/archivos-m/main/servers/gordos-1.16.5/forgemods/optionalon/[o]FpsReducer-forge-1.24-mc1.16.5.jar",
+            "MD5": "33801faed801cb3427b1b20cbb9a44fe"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "com.teampotato:francium:1.16.5-1.0.1@jar",
+          "name": "Francium",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 8333,
+            "url": "http://raw.githubusercontent.com/BSG-Walter/archivos-m/main/servers/gordos-1.16.5/forgemods/required/[o]francium-1.16.5-1.0.1.jar",
+            "MD5": "f9289dc26445acd410792df8dd7f631d"
+          }
+        },
+        {
+          "id": "me.steinborn:lazydfu:0.1.3@jar",
+          "name": "LazyDFU",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 15258,
+            "url": "http://raw.githubusercontent.com/BSG-Walter/archivos-m/main/servers/gordos-1.16.5/forgemods/required/[o]lazydfu-0.1.3.jar",
+            "MD5": "fce7920ba6329d631da4025e9322e5e0"
+          }
+        },
+        {
+          "id": "mod.azure:logbegone:1.0.4@jar",
+          "name": "Log Begone",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 58263,
+            "url": "http://raw.githubusercontent.com/BSG-Walter/archivos-m/main/servers/gordos-1.16.5/forgemods/optionalon/[o]Log-Begone-Forge-1.16.5-1.0.4.jar",
+            "MD5": "1114c7fc9f6d213c5ec0e3e4f0098869"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "ca.fxco:memoryleakfix:1.1.5@jar",
+          "name": "Memory Leak Fix",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 225324,
+            "url": "http://raw.githubusercontent.com/BSG-Walter/archivos-m/main/servers/gordos-1.16.5/forgemods/optionalon/[o]memoryleakfix-forge-pre1.17-1.1.5.jar",
+            "MD5": "fe7c6324891ef8f6d00ebc23f6d185a2"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "org.embeddedt.modernfix.forge.init:modernfix:5.18.0+mc1.16.5@jar",
+          "name": "ModernFix",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 867079,
+            "url": "http://raw.githubusercontent.com/BSG-Walter/archivos-m/main/servers/gordos-1.16.5/forgemods/required/[o]modernfix-forge-5.18.0+mc1.16.5.jar",
+            "MD5": "6989c0a2e20fbe4c2a431b1e64b0e15c"
+          }
+        },
+        {
+          "id": "net.coderbot.iris:oculus:1.4.8@jar",
+          "name": "Oculus",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 3133901,
+            "url": "http://raw.githubusercontent.com/BSG-Walter/archivos-m/main/servers/gordos-1.16.5/forgemods/required/[o]oculus-mc1.16.5-1.4.8.jar",
+            "MD5": "568661a2dd12b461674c7f3a80837804"
+          }
+        },
+        {
+          "id": "me.jellysquid.mods.lithium:roadrunner:1.5.1@jar",
+          "name": "RoadRunner",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 393524,
+            "url": "http://raw.githubusercontent.com/BSG-Walter/archivos-m/main/servers/gordos-1.16.5/forgemods/required/[o]RoadRunner-mc1.16.5-1.5.1.jar",
+            "MD5": "0b63fd9b08643838ad9eb190ea1b2c41"
+          }
+        },
+        {
+          "id": "com.github.dimadencep.mods:rrls:1.5.1-forge@jar",
+          "name": "Remove Reloading Screen",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 180365,
+            "url": "http://raw.githubusercontent.com/BSG-Walter/archivos-m/main/servers/gordos-1.16.5/forgemods/required/[o]Rrls-1.5.1-forge.jar",
+            "MD5": "e56f5016460c319abc4f35d9e6ca9a92"
+          }
+        },
+        {
+          "id": "corgitaco.shutupexperimentalsettings:shutupexperimentalsettings:1.0.3@jar",
+          "name": "Shutup Experimental Settings!",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 4140,
+            "url": "http://raw.githubusercontent.com/BSG-Walter/archivos-m/main/servers/gordos-1.16.5/forgemods/required/[o]shutupexperimentalsettings-1.0.3.jar",
+            "MD5": "150c992d5976049fcda0161132afc269"
+          }
+        },
+        {
+          "id": "me.lucko:spark:1.9.1@jar",
+          "name": "Spark",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 3157081,
+            "url": "http://raw.githubusercontent.com/BSG-Walter/archivos-m/main/servers/gordos-1.16.5/forgemods/optionaloff/[o]spark-1.9.1-forge.jar",
+            "MD5": "2d82da0ca51901f70360d555f1257bcd"
+          },
+          "required": {
+            "value": false,
+            "def": false
+          }
+        },
+        {
+          "id": "ca.spottedleaf:starlight:1.0.0-RC2@jar",
+          "name": "Starlight",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 101511,
+            "url": "http://raw.githubusercontent.com/BSG-Walter/archivos-m/main/servers/gordos-1.16.5/forgemods/required/[o]starlight-1.2.jar",
+            "MD5": "0300a2592cdb4b82f7203b4f0f9af87b"
+          }
+        },
+        {
+          "id": "me.flashyreese.mods.reeses_sodium_options:textrues_embeddium_options:0.1.2+mc1.16.5@jar",
+          "name": "TexTrue's Embeddium Options",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 132106,
+            "url": "http://raw.githubusercontent.com/BSG-Walter/archivos-m/main/servers/gordos-1.16.5/forgemods/required/[o]textrue_embeddium_options-0.1.2+mc1.16.5.jar",
+            "MD5": "9b5dc1774f51a94e4dd752780a6dbf07"
+          }
+        },
+        {
+          "id": "haloofblocks.additionalguns:additionalguns:0.8.0@jar",
+          "name": "Additional Guns",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1146326,
+            "url": "http://raw.githubusercontent.com/BSG-Walter/archivos-m/main/servers/gordos-1.16.5/forgemods/required/additional-guns-0.8.0-1.16.5.jar",
+            "MD5": "3abed72ba755d0116291f3190104f272"
+          }
+        },
+        {
+          "id": "de.melanx:aiotbotania:1.8.4@jar",
+          "name": "AIOT Botania",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 220776,
+            "url": "http://raw.githubusercontent.com/BSG-Walter/archivos-m/main/servers/gordos-1.16.5/forgemods/required/aiotbotania-1.16.5-1.8.4.jar",
+            "MD5": "45f3aed64af5e3757879c22f5be07434"
+          }
+        },
+        {
+          "id": "appeng.core:appliedenergistics2:8.4.7@jar",
+          "name": "Applied Energistics 2",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 4820914,
+            "url": "http://raw.githubusercontent.com/BSG-Walter/archivos-m/main/servers/gordos-1.16.5/forgemods/required/appliedenergistics2-8.4.7.jar",
+            "MD5": "c89ee2036b32eaaf3aafc77ec7694524"
+          }
+        },
+        {
+          "id": "com.teammetallurgy:aquaculture:1.16.5-2.1.23@jar",
+          "name": "Aquaculture 2",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 551038,
+            "url": "http://raw.githubusercontent.com/BSG-Walter/archivos-m/main/servers/gordos-1.16.5/forgemods/required/Aquaculture-1.16.5-2.1.23.jar",
+            "MD5": "768c50bbeb2460e943806c1a0ca11a19"
+          }
+        },
+        {
+          "id": "alexthw.ars_elemental:ars_elemental:1.16.5-0.1.6.4@jar",
+          "name": "Ars Elemental - Elemental Spell Foci",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 123895,
+            "url": "http://raw.githubusercontent.com/BSG-Walter/archivos-m/main/servers/gordos-1.16.5/forgemods/required/ars_elemental-1.16.5-0.1.6.4.jar",
+            "MD5": "d8fc797b33f727029bc214fb420b0369"
+          }
+        },
+        {
+          "id": "com.hollingsworth.arsnouveau:ars_nouveau:1.25.10@jar",
+          "name": "Ars Nouveau",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 4750450,
+            "url": "http://raw.githubusercontent.com/BSG-Walter/archivos-m/main/servers/gordos-1.16.5/forgemods/required/ars_nouveau-1.16.5-1.25.10.jar",
+            "MD5": "55331ee80cf08cc8eb1745be25f22e6f"
+          }
+        },
+        {
+          "id": "ballistix:ballistix:1.16.5-0.3.1-0@jar",
+          "name": "Ballistix",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 4929805,
+            "url": "http://raw.githubusercontent.com/BSG-Walter/archivos-m/main/servers/gordos-1.16.5/forgemods/required/Ballistix-1.16.5-0.3.1-0.jar",
+            "MD5": "f949073b82969816db87148f2604d3a7"
+          }
+        },
+        {
+          "id": "betteradvancements:betteradvancements:0.1.1.115@jar",
+          "name": "Better Advancements",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 63647,
+            "url": "http://raw.githubusercontent.com/BSG-Walter/archivos-m/main/servers/gordos-1.16.5/forgemods/required/BetterAdvancements-1.16.5-0.1.1.115.jar",
+            "MD5": "adfe86a88ffbf084b3c5d94b3c2468a6"
+          }
+        },
+        {
+          "id": "vazkii.botania:botania:1.16.5-420.3@jar",
+          "name": "Botania",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 15046675,
+            "url": "http://raw.githubusercontent.com/BSG-Walter/archivos-m/main/servers/gordos-1.16.5/forgemods/required/Botania-1.16.5-420.3.jar",
+            "MD5": "ae588b4b6d85ed1072bcf6598323c510"
+          }
+        },
+        {
+          "id": "tschipp.carryon:carryon:1.15.6.24@jar",
+          "name": "Carry On",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 321769,
+            "url": "http://raw.githubusercontent.com/BSG-Walter/archivos-m/main/servers/gordos-1.16.5/forgemods/required/carryon-1.16.5-1.15.6.24.jar",
+            "MD5": "be95c2cf0df05e8d9a7f594ee040befb"
+          }
+        },
+        {
+          "id": "com.mrcrayfish.furniture:cfm:7.0.0-pre22@jar",
+          "name": "MrCrayfish's Furniture Mod",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2033912,
+            "url": "http://raw.githubusercontent.com/BSG-Walter/archivos-m/main/servers/gordos-1.16.5/forgemods/required/cfm-7.0.0pre22-1.16.3.jar",
+            "MD5": "b2a5f7a361279de6bb5f51246ad36484"
+          }
+        },
+        {
+          "id": "top.theillusivec4:champions:1.16.5-2.0.1.16@jar",
+          "name": "Champions",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 222925,
+            "url": "http://raw.githubusercontent.com/BSG-Walter/archivos-m/main/servers/gordos-1.16.5/forgemods/required/champions-forge-1.16.5-2.0.1.16.jar",
+            "MD5": "df551e3c257d8844df8da41b07fc81e8"
+          }
+        },
+        {
+          "id": "mod.chiselsandbits:chiselsandbits:1.0.63@jar",
+          "name": "Chisels & bits",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1283988,
+            "url": "http://raw.githubusercontent.com/BSG-Walter/archivos-m/main/servers/gordos-1.16.5/forgemods/required/chiselsandbits-1.0.63.jar",
+            "MD5": "928060d0c6042fdca4f937c2a4c5d854"
+          }
+        },
+        {
+          "id": "com.cgessinger.creaturesandbeasts:cnb:1.2.11@jar",
+          "name": "Creatures and Beasts",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 963433,
+            "url": "http://raw.githubusercontent.com/BSG-Walter/archivos-m/main/servers/gordos-1.16.5/forgemods/required/CNB-1.16.3_5-1.2.11.jar",
+            "MD5": "761fafff0c8dd94e15d977cc70a2704e"
+          }
+        },
+        {
+          "id": "com.natamus:collective:5.49@jar",
+          "name": "Collective",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 189273,
+            "url": "http://raw.githubusercontent.com/BSG-Walter/archivos-m/main/servers/gordos-1.16.5/forgemods/required/collective-1.16.5-5.49.jar",
+            "MD5": "1512ddca3d5526f195b43f2e6b0ba357"
+          }
+        },
+        {
+          "id": "com.simibubi:create:v0.3.2g@jar",
+          "name": "Create",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 11564279,
+            "url": "http://raw.githubusercontent.com/BSG-Walter/archivos-m/main/servers/gordos-1.16.5/forgemods/required/create-mc1.16.5_v0.3.2g.jar",
+            "MD5": "84ec13d5bccfa71a09783ecb6e089b20"
+          }
+        },
+        {
+          "id": "net.mcreator.createstuffaddons:create_stuff_additions:1.1.6@jar",
+          "name": "Create Stuff Additions",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 966889,
+            "url": "http://raw.githubusercontent.com/BSG-Walter/archivos-m/main/servers/gordos-1.16.5/forgemods/required/create-stuff-additions1.16.5_v1.1.6.jar",
+            "MD5": "4ff841407a457b88703e4d33d6836eb0"
+          }
+        },
+        {
+          "id": "doggytalents:doggytalents:2.1.15@jar",
+          "name": "Doggy Talents 2",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1144133,
+            "url": "http://raw.githubusercontent.com/BSG-Walter/archivos-m/main/servers/gordos-1.16.5/forgemods/required/DoggyTalents-1.16.5-2.1.15.jar",
+            "MD5": "4f13b3b9a710f8132f2120910dfcc046"
+          }
+        },
+        {
+          "id": "com.natamus:doubledoors:3.3@jar",
+          "name": "Double Doors",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 12673,
+            "url": "http://raw.githubusercontent.com/BSG-Walter/archivos-m/main/servers/gordos-1.16.5/forgemods/required/doubledoors_1.16.5-3.3.jar",
+            "MD5": "3a26d7e68f1c38e7c9963f2918972553"
+          }
+        },
+        {
+          "id": "net.mindoth:dreadsteel:1.16.5-1.1.6@jar",
+          "name": "Dreadsteel",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 249257,
+            "url": "http://raw.githubusercontent.com/BSG-Walter/archivos-m/main/servers/gordos-1.16.5/forgemods/required/dreadsteel-1.16.5-1.1.6.jar",
+            "MD5": "cddcec4099f7281b2de2c74f7f4004cc"
+          }
+        },
+        {
+          "id": "com.vulp:druidcraft:0.4.52@jar",
+          "name": "Druidcraft",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1488023,
+            "url": "http://raw.githubusercontent.com/BSG-Walter/archivos-m/main/servers/gordos-1.16.5/forgemods/required/Druidcraft-1.16.5-0.4.54.jar",
+            "MD5": "10c89f8d73b9aa03293621a68b2393ba"
+          }
+        },
+        {
+          "id": "net.mehvahdjukaar:dummmmmmy:1.3.0@jar",
+          "name": "MmmMmmMmmMmm",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 126190,
+            "url": "http://raw.githubusercontent.com/BSG-Walter/archivos-m/main/servers/gordos-1.16.5/forgemods/required/dummmmmmy-1.16.5-1.3.3.jar",
+            "MD5": "bb1342a154c05ef83258488729e1ba3d"
+          }
+        },
+        {
+          "id": "com.dainxt:dungeonsmod:1.16.3-1.4.43@jar",
+          "name": "Dungeons Mod",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1743846,
+            "url": "http://raw.githubusercontent.com/BSG-Walter/archivos-m/main/servers/gordos-1.16.5/forgemods/required/DungeonsMod-1.16.3-1.4.43.jar",
+            "MD5": "1e994ad60f7f7ac8295dfc3347924848"
+          }
+        },
+        {
+          "id": "elucent.eidolon:eidolon:0.2.7@jar",
+          "name": "Eidolon",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2040762,
+            "url": "http://raw.githubusercontent.com/BSG-Walter/archivos-m/main/servers/gordos-1.16.5/forgemods/required/eidolon-0.2.7.jar",
+            "MD5": "ce36e9b8a7db126dd8d448c66ce8ab9e"
+          }
+        },
+        {
+          "id": "electrodynamics:electrodynamics:1.16.5-0.5.1-0@jar",
+          "name": "Electrodynamics",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 7038012,
+            "url": "http://raw.githubusercontent.com/BSG-Walter/archivos-m/main/servers/gordos-1.16.5/forgemods/required/Electrodynamics-1.16.5-0.5.1-0.jar",
+            "MD5": "2a06f08e547a232664c29fa803783de2"
+          }
+        },
+        {
+          "id": "net.darkhax:enchdesc:7.1.27@jar",
+          "name": "EnchantmentDescriptions",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 58127,
+            "url": "http://raw.githubusercontent.com/BSG-Walter/archivos-m/main/servers/gordos-1.16.5/forgemods/required/EnchantmentDescriptions-1.16.5-7.1.27.jar",
+            "MD5": "3122486d8c8c3cafb304a0b9dbe5f76e"
+          }
+        },
+        {
+          "id": "org.cyclops:evilcraft:1.1.17@jar",
+          "name": "EvilCraft",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 3079197,
+            "url": "http://raw.githubusercontent.com/BSG-Walter/archivos-m/main/servers/gordos-1.16.5/forgemods/required/EvilCraft-1.16.5-1.1.17.jar",
+            "MD5": "c3549d3ff7755d64985111d7f1cdec3d"
+          }
+        },
+        {
+          "id": "it.zerono.mods.extremereactors:bigreactors:1.16.5-2.0.71@jar",
+          "name": "Extreme Reactors",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2311162,
+            "url": "http://raw.githubusercontent.com/BSG-Walter/archivos-m/main/servers/gordos-1.16.5/forgemods/required/ExtremeReactors2-1.16.5-2.0.71.jar",
+            "MD5": "b6e5ef17378a501feacf25a24c717ceb"
+          }
+        },
+        {
+          "id": "sonar.fluxnetworks:fluxnetworks:6.2.1.14@jar",
+          "name": "Flux Networks",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 468128,
+            "url": "http://raw.githubusercontent.com/BSG-Walter/archivos-m/main/servers/gordos-1.16.5/forgemods/required/FluxNetworks-1.16.5-6.2.1.14.jar",
+            "MD5": "966c1e375dbcbb23952afb37893295df"
+          }
+        },
+        {
+          "id": "com.stal111:forbidden_arcanus:16.2.3@jar",
+          "name": "Forbidden & Arcanus",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2270002,
+            "url": "http://raw.githubusercontent.com/BSG-Walter/archivos-m/main/servers/gordos-1.16.5/forgemods/required/forbidden_arcanus-16.2.3.jar",
+            "MD5": "c11e757ea774d3ff358fb176ec07fea0"
+          }
+        },
+        {
+          "id": "net.darkhax:friendlyfire:7.0.5@jar",
+          "name": "FriendlyFire",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 7465,
+            "url": "http://raw.githubusercontent.com/BSG-Walter/archivos-m/main/servers/gordos-1.16.5/forgemods/required/FriendlyFire-1.16.5-7.0.5.jar",
+            "MD5": "b346c558f8c6559129aea8ea9e681137"
+          }
+        },
+        {
+          "id": "shadows.gateways:gateways:1.0.2@jar",
+          "name": "Gateways To Eternity",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 564724,
+            "url": "http://raw.githubusercontent.com/BSG-Walter/archivos-m/main/servers/gordos-1.16.5/forgemods/required/GatewaysToEternity-1.16.5-1.0.2.jar",
+            "MD5": "034549a7b8995607693389126185c380"
+          }
+        },
+        {
+          "id": "me.ichun.mods:hats:10.3.4@jar",
+          "name": "Hats",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1544164,
+            "url": "http://raw.githubusercontent.com/BSG-Walter/archivos-m/main/servers/gordos-1.16.5/forgemods/required/Hats-1.16.5-10.3.4.jar",
+            "MD5": "ba93d2d757405370991503a286706105"
+          }
+        },
+        {
+          "id": "com.github.alexthe666:iceandfire:2.1.12-1.16.5-patch-1@jar",
+          "name": "Ice and Fire",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 21463531,
+            "url": "http://raw.githubusercontent.com/BSG-Walter/archivos-m/main/servers/gordos-1.16.5/forgemods/required/iceandfire-2.1.12-1.16.5-patch-1.jar",
+            "MD5": "c9de9b4b6e91353fb37ecdb6660fda84"
+          }
+        },
+        {
+          "id": "blusunrize.immersiveengineering:immersiveengineering:1.16.5-5.1.0-148@jar",
+          "name": "Immersive Engineering",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 9414280,
+            "url": "http://raw.githubusercontent.com/BSG-Walter/archivos-m/main/servers/gordos-1.16.5/forgemods/required/ImmersiveEngineering-1.16.5-5.1.0-148.jar",
+            "MD5": "834eb9edbfc3136ab5b14983fef05275"
+          }
+        },
+        {
+          "id": "invtweaks:invtweaks:1.16.2-1.0.0@jar",
+          "name": "Inventory Tweaks Renewed",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 69502,
+            "url": "http://raw.githubusercontent.com/BSG-Walter/archivos-m/main/servers/gordos-1.16.5/forgemods/required/invtweaks-1.16.2-1.0.0.jar",
+            "MD5": "4d74d2c574a054455a1e3f16fc21bd42"
+          }
+        },
+        {
+          "id": "com.progwml6:ironchest:1.16.5-11.2.21@jar",
+          "name": "Iron Chests",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 258298,
+            "url": "http://raw.githubusercontent.com/BSG-Walter/archivos-m/main/servers/gordos-1.16.5/forgemods/required/ironchest-1.16.5-11.2.21.jar",
+            "MD5": "ad813ff46d3c9ba127e1033bfe957758"
+          }
+        },
+        {
+          "id": "mcp.mobius:jade:2.8.3@jar",
+          "name": "Jade",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 260212,
+            "url": "http://raw.githubusercontent.com/BSG-Walter/archivos-m/main/servers/gordos-1.16.5/forgemods/required/Jade-1.16.4-2.8.3.jar",
+            "MD5": "424b0eb9998bc92defc9eacb5a869a99"
+          }
+        },
+        {
+          "id": "mezz.jei:jei:7.8.0.1011@jar",
+          "name": "Just Enough Items",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 840372,
+            "url": "http://raw.githubusercontent.com/BSG-Walter/archivos-m/main/servers/gordos-1.16.5/forgemods/required/jei-1.16.5-7.8.0.1011.jar",
+            "MD5": "84ac3411ad18ddc4c4e08667f79e2ee3"
+          }
+        },
+        {
+          "id": "de.keksuccino:justzoom:1.0.2@jar",
+          "name": "Just Zoom",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 8921,
+            "url": "http://raw.githubusercontent.com/BSG-Walter/archivos-m/main/servers/gordos-1.16.5/forgemods/optionalon/justzoom_forge_1.0.2-2_MC_1.16.5.jar",
+            "MD5": "dedf6c7c62e4cea14ad72077c53ac9e5"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "de.keksuccino:konkrete:1.6.1@jar",
+          "name": "Konkrete",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 643559,
+            "url": "http://raw.githubusercontent.com/BSG-Walter/archivos-m/main/servers/gordos-1.16.5/forgemods/required/konkrete_forge_1.6.1_MC_1.16.2-1.16.5.jar",
+            "MD5": "0d29f39a11641e7d83663dc89148632c"
+          }
+        },
+        {
+          "id": "ru.vidtu.ksyxis.loaders:ksyxis:1.3.2@jar",
+          "name": "Ksyxis",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 26235,
+            "url": "http://raw.githubusercontent.com/BSG-Walter/archivos-m/main/servers/gordos-1.16.5/forgemods/required/Ksyxis-1.3.2.jar",
+            "MD5": "287b5b24a48264d493f76db2a5db8411"
+          }
+        },
+        {
+          "id": "net.cursedwarrior:levinide:0.4.7@jar",
+          "name": "Levinide",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 5531260,
+            "url": "http://raw.githubusercontent.com/BSG-Walter/archivos-m/main/servers/gordos-1.16.5/forgemods/required/Levinide%200.4.7%20-%201.16.5.jar",
+            "MD5": "1e26b3350b1ab0fd369dd55c851aa7e4"
+          }
+        },
+        {
+          "id": "com.gizmo:luggage:1.1@jar",
+          "name": "Luggage",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 145440,
+            "url": "http://raw.githubusercontent.com/BSG-Walter/archivos-m/main/servers/gordos-1.16.5/forgemods/required/luggage-1.1.jar",
+            "MD5": "f040a33ed514d696d9beda54b30ceb8f"
+          }
+        },
+        {
+          "id": "stepsword.mahoutsukai:mahoutsukai:1.16.5-v1.34.61@jar",
+          "name": "Mahou Tsukai",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 3952351,
+            "url": "http://raw.githubusercontent.com/BSG-Walter/archivos-m/main/servers/gordos-1.16.5/forgemods/required/mahoutsukai-1.16.5-v1.34.61.jar",
+            "MD5": "e507d6b746268a1eb44708ca7d6eaae9"
+          }
+        },
+        {
+          "id": "mekanism:mekanism:10.1.2@jar",
+          "name": "Mekanism",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 11181433,
+            "url": "http://raw.githubusercontent.com/BSG-Walter/archivos-m/main/servers/gordos-1.16.5/forgemods/required/Mekanism-1.16.5-10.1.2.457.jar",
+            "MD5": "bcfbd6b2d63020cdbf42b9c2d643b956"
+          }
+        },
+        {
+          "id": "mekanism.generators:mekanismgenerators:10.1.2@jar",
+          "name": "Mekanism: Generators",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 985334,
+            "url": "http://raw.githubusercontent.com/BSG-Walter/archivos-m/main/servers/gordos-1.16.5/forgemods/required/MekanismGenerators-1.16.5-10.1.2.457.jar",
+            "MD5": "8e0854f544510952dda70eb3c840638e"
+          }
+        },
+        {
+          "id": "me.ichun.mods:morph:10.2.1@jar",
+          "name": "Morph",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1277555,
+            "url": "http://raw.githubusercontent.com/BSG-Walter/archivos-m/main/servers/gordos-1.16.5/forgemods/required/Morph-1.16.5-10.2.1.jar",
+            "MD5": "fef30d26302d5c207a05fb0bb51d9713"
+          }
+        },
+        {
+          "id": "com.chaosthedude:naturescompass:1.16.5-1.9.1-forge@jar",
+          "name": "Nature's Compass",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 203573,
+            "url": "http://raw.githubusercontent.com/BSG-Walter/archivos-m/main/servers/gordos-1.16.5/forgemods/required/NaturesCompass-1.16.5-1.9.1-forge.jar",
+            "MD5": "1ed5def709b0b9d0f40db32d0877fad0"
+          }
+        },
+        {
+          "id": "com.song:nuclear_craft:undefined@jar",
+          "name": "Nuclear Craft",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 4910402,
+            "url": "http://raw.githubusercontent.com/BSG-Walter/archivos-m/main/servers/gordos-1.16.5/forgemods/required/nuclear_craft-1.16.5-0.9.3.jar",
+            "MD5": "22484e43aa5cd09da8401a68531f6c03"
+          }
+        },
+        {
+          "id": "nuclearscience:nuclearscience:1.16.5-0.4.1-0@jar",
+          "name": "Nuclear Science",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 3970168,
+            "url": "http://raw.githubusercontent.com/BSG-Walter/archivos-m/main/servers/gordos-1.16.5/forgemods/required/Nuclear_Science-1.16.5-0.4.1-0.jar",
+            "MD5": "82fe79cbfb1ed7fb223525af3d10159d"
+          }
+        },
+        {
+          "id": "com.github.klikli_dev:occultism:1.16.5-1.29.1@jar",
+          "name": "Occultism",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 4792769,
+            "url": "http://raw.githubusercontent.com/BSG-Walter/archivos-m/main/servers/gordos-1.16.5/forgemods/required/occultism-1.16.5-1.29.1.jar",
+            "MD5": "65364e0f8d8ebf9f20ff77fe0cd27f4b"
+          }
+        },
+        {
+          "id": "me.ferdz:placeableitems:4.5.1@jar",
+          "name": "Placeable Items",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 544443,
+            "url": "http://raw.githubusercontent.com/BSG-Walter/archivos-m/main/servers/gordos-1.16.5/forgemods/required/placeableitems-4.5.1.jar",
+            "MD5": "6927a3a531a006e82bfa50e8927f7377"
+          }
+        },
+        {
+          "id": "me.desht:pneumaticcraft:1.16.5-2.15.12-13@jar",
+          "name": "PneumaticCraft: Repressurized",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 10127673,
+            "url": "http://raw.githubusercontent.com/BSG-Walter/archivos-m/main/servers/gordos-1.16.5/forgemods/required/pneumaticcraft-repressurized-1.16.5-2.15.12-13.jar",
+            "MD5": "edc05b9f431a2a2492e2bdf242df0ef2"
+          }
+        },
+        {
+          "id": "top.theillusivec4:polymorph:1.16.5-0.41@jar",
+          "name": "Polymorph",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 269665,
+            "url": "http://raw.githubusercontent.com/BSG-Walter/archivos-m/main/servers/gordos-1.16.5/forgemods/required/polymorph-forge-1.16.5-0.41.jar",
+            "MD5": "1c60cd0ef18ac020d63c20c56f138207"
+          }
+        },
+        {
+          "id": "cofh.redstonearsenal:redstone_arsenal:0.9.3b.17@jar",
+          "name": "Redstone Arsenal",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 449486,
+            "url": "http://raw.githubusercontent.com/BSG-Walter/archivos-m/main/servers/gordos-1.16.5/forgemods/required/redstone_arsenal-1.16.5-0.9.3b.17.jar",
+            "MD5": "fcf025cd722756f30a8bc14c60002a8a"
+          }
+        },
+        {
+          "id": "it.hurts.sskirillss:relics:0.3.4.4@jar",
+          "name": "Relics",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1118083,
+            "url": "http://raw.githubusercontent.com/BSG-Walter/archivos-m/main/servers/gordos-1.16.5/forgemods/required/relics-1.16.5-0.3.4.4.jar",
+            "MD5": "a1d8dff1be7632a4dde03ad18a479867"
+          }
+        },
+        {
+          "id": "xreliquary:xreliquary:1.16.5-1.3.5.1124@jar",
+          "name": "Reliquary",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1470776,
+            "url": "http://raw.githubusercontent.com/BSG-Walter/archivos-m/main/servers/gordos-1.16.5/forgemods/required/reliquary-1.16.5-1.3.5.1124.jar",
+            "MD5": "84bf1a0cc6927d3d6a2ea8cb6c02aaac"
+          }
+        },
+        {
+          "id": "elucent.rootsclassic:rootsclassic:1.16.5-1.1.18@jar",
+          "name": "Roots Classic",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 581302,
+            "url": "http://raw.githubusercontent.com/BSG-Walter/archivos-m/main/servers/gordos-1.16.5/forgemods/required/RootsClassic-1.16.5-1.1.18.jar",
+            "MD5": "1419aa2f4736bb9fa70ae374203c3c42"
+          }
+        },
+        {
+          "id": "net.xalcon:torchmaster:2.3.8@jar",
+          "name": "Torchmaster",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 94627,
+            "url": "http://raw.githubusercontent.com/BSG-Walter/archivos-m/main/servers/gordos-1.16.5/forgemods/required/torchmaster-2.3.8.jar",
+            "MD5": "ca3a3912e74ee5e5b2e28d913ea8a3c7"
+          }
+        },
+        {
+          "id": "net.mcreator:undead:2.2.2@jar",
+          "name": "UNDEAD",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 5698994,
+            "url": "http://raw.githubusercontent.com/BSG-Walter/archivos-m/main/servers/gordos-1.16.5/forgemods/required/UNDEADv.1.7.b.release+Biome.jar",
+            "MD5": "a1ae941130ab9090d7033f1f21c11992"
+          }
+        },
+        {
+          "id": "com.minecraftabnormals.upgrade_aquatic.core:upgrade_aquatic:3.1.2@jar",
+          "name": "Upgrade Aquatic",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 3682686,
+            "url": "http://raw.githubusercontent.com/BSG-Walter/archivos-m/main/servers/gordos-1.16.5/forgemods/required/upgrade_aquatic-1.16.5-3.1.2.jar",
+            "MD5": "0c76f920a78f582d75624b7647e584e1"
+          }
+        },
+        {
+          "id": "net.blay09.mods:waystones:7.6.4@jar",
+          "name": "Waystones",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 375934,
+            "url": "http://raw.githubusercontent.com/BSG-Walter/archivos-m/main/servers/gordos-1.16.5/forgemods/required/Waystones_1.16.5-7.6.4.jar",
+            "MD5": "a73806ee8f30e26705503013a54a5961"
+          }
+        },
+        {
+          "id": "xaero.minimap:xaerominimap:24.2.1@jar",
+          "name": "Xaero's Minimap",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1375334,
+            "url": "http://raw.githubusercontent.com/BSG-Walter/archivos-m/main/servers/gordos-1.16.5/forgemods/optionalon/Xaeros_Minimap_24.2.1_Forge_1.16.5.jar",
+            "MD5": "a7ffff4398a235c7211031f2fb8e20da"
+          },
+          "required": {
+            "value": false
+          }
+        }
+      ]
+    }
+  ]
+}
