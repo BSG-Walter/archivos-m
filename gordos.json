@@ -477,6 +477,16 @@
           }
         },
         {
+          "id": "slimeknights.mantle:mantle:1.6.157@jar",
+          "name": "Mantle",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 806737,
+            "url": "http://raw.githubusercontent.com/BSG-Walter/archivos-m/main/servers/gordos-1.16.5/forgemods/required/[c]Mantle-1.16.5-1.6.157.jar",
+            "MD5": "e5ee7cb043a90615d0fdacffbc1f6790"
+          }
+        },
+        {
           "id": "com.mrcrayfish:obfuscate:0.6.3@jar",
           "name": "Obfuscate",
           "type": "ForgeMod",
@@ -813,6 +823,16 @@
           }
         },
         {
+          "id": "net.mcreator.cambiandoversion:argentinas_delight:1.3@jar",
+          "name": "Argentina's Delight",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 6697501,
+            "url": "http://raw.githubusercontent.com/BSG-Walter/archivos-m/main/servers/gordos-1.16.5/forgemods/required/Argentina's%20delight%201.16.5%20(3.0%20beta).jar",
+            "MD5": "646e48b69b3d848aafb235d676bdb3c1"
+          }
+        },
+        {
           "id": "alexthw.ars_elemental:ars_elemental:1.16.5-0.1.6.4@jar",
           "name": "Ars Elemental - Elemental Spell Foci",
           "type": "ForgeMod",
@@ -853,6 +873,26 @@
           }
         },
         {
+          "id": "net.smileycorp:bloodsmeltery:1.1.5a@jar",
+          "name": "Blood Smeltery",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 256150,
+            "url": "http://raw.githubusercontent.com/BSG-Walter/archivos-m/main/servers/gordos-1.16.5/forgemods/required/Blood-Smeltery-1.16.5-1.1.5a.jar",
+            "MD5": "ac90e1e8d4ab1c4357c83bac47181055"
+          }
+        },
+        {
+          "id": "wayoftime.bloodmagic:bloodmagic:1.16.4-3.1.13-39@jar",
+          "name": "Blood Magic",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 10017206,
+            "url": "http://raw.githubusercontent.com/BSG-Walter/archivos-m/main/servers/gordos-1.16.5/forgemods/required/BloodMagic-1.16.4-3.1.13-39.jar",
+            "MD5": "0f276bdfc3a7950a58feb7a606e57fe4"
+          }
+        },
+        {
           "id": "vazkii.botania:botania:1.16.5-420.3@jar",
           "name": "Botania",
           "type": "ForgeMod",
@@ -880,6 +920,16 @@
             "size": 321769,
             "url": "http://raw.githubusercontent.com/BSG-Walter/archivos-m/main/servers/gordos-1.16.5/forgemods/required/carryon-1.16.5-1.15.6.24.jar",
             "MD5": "be95c2cf0df05e8d9a7f594ee040befb"
+          }
+        },
+        {
+          "id": "dan200.computercraft:computercraft:1.101.3@jar",
+          "name": "CC: Tweaked",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2022341,
+            "url": "http://raw.githubusercontent.com/BSG-Walter/archivos-m/main/servers/gordos-1.16.5/forgemods/required/cc-tweaked-1.16.5-1.101.3.jar",
+            "MD5": "537a921345bc5bf41bc0ac639570df70"
           }
         },
         {
@@ -993,6 +1043,16 @@
           }
         },
         {
+          "id": "lekavar.lma:drinkbeer:2.3.5@jar",
+          "name": "Drink Beer",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 933539,
+            "url": "http://raw.githubusercontent.com/BSG-Walter/archivos-m/main/servers/gordos-1.16.5/forgemods/required/drinkbeer-1.16.5-2.3.5.jar",
+            "MD5": "e576933a5731c993abfd0b1fe8618b74"
+          }
+        },
+        {
           "id": "com.vulp:druidcraft:0.4.52@jar",
           "name": "Druidcraft",
           "type": "ForgeMod",
@@ -1063,6 +1123,36 @@
           }
         },
         {
+          "id": "novamachina.exnihiloae:exnihiloae:1.16-1.0.0.2@jar",
+          "name": "Ex Nihilo: Sequentia - AE2 Addon",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 23872,
+            "url": "http://raw.githubusercontent.com/BSG-Walter/archivos-m/main/servers/gordos-1.16.5/forgemods/required/exnihiloae-1.16-1.0.0.2.jar",
+            "MD5": "c6b7a8975343a6580124461d4fc8c03f"
+          }
+        },
+        {
+          "id": "novamachina.exnihilomekanism:exnihilomekanism:1.16-1.0.0.1@jar",
+          "name": "Ex Nihilo: Sequentia - Mekanism Addon",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 19108,
+            "url": "http://raw.githubusercontent.com/BSG-Walter/archivos-m/main/servers/gordos-1.16.5/forgemods/required/exnihilomekanism-1.16-1.0.0.1.jar",
+            "MD5": "1cc39340d592c00dcbe1b06689cf9193"
+          }
+        },
+        {
+          "id": "novamachina.exnihilosequentia:exnihilosequentia:1.16-20220530-185402@jar",
+          "name": "Ex Nihilo: Sequentia",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 864934,
+            "url": "http://raw.githubusercontent.com/BSG-Walter/archivos-m/main/servers/gordos-1.16.5/forgemods/required/exnihilosequentia-1.16-20220530-185402.jar",
+            "MD5": "c6626ae3ada2da6dd4f86a81a6acfd41"
+          }
+        },
+        {
           "id": "it.zerono.mods.extremereactors:bigreactors:1.16.5-2.0.71@jar",
           "name": "Extreme Reactors",
           "type": "ForgeMod",
@@ -1113,6 +1203,26 @@
           }
         },
         {
+          "id": "mokiyoki.enhancedanimals:eanimod:0_6_40@jar",
+          "name": "Genetic Animals",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 10331767,
+            "url": "http://raw.githubusercontent.com/BSG-Walter/archivos-m/main/servers/gordos-1.16.5/forgemods/required/GeneticAnimals-0_6_40.jar",
+            "MD5": "24352e0863b2c70afaf300273dd3dd9a"
+          }
+        },
+        {
+          "id": "com.mrcrayfish:goblintraders:1.7.3@jar",
+          "name": "Goblin Traders",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 428711,
+            "url": "http://raw.githubusercontent.com/BSG-Walter/archivos-m/main/servers/gordos-1.16.5/forgemods/required/goblintraders-1.7.3-1.16.5.jar",
+            "MD5": "2161b97a4ff7c0ca199307be05839d83"
+          }
+        },
+        {
           "id": "me.ichun.mods:hats:10.3.4@jar",
           "name": "Hats",
           "type": "ForgeMod",
@@ -1143,13 +1253,23 @@
           }
         },
         {
-          "id": "invtweaks:invtweaks:1.16.2-1.0.0@jar",
-          "name": "Inventory Tweaks Renewed",
+          "id": "net.blay09.mods:inventoryessentials:2.3.2@jar",
+          "name": "Inventory Essentials",
           "type": "ForgeMod",
           "artifact": {
-            "size": 69502,
-            "url": "http://raw.githubusercontent.com/BSG-Walter/archivos-m/main/servers/gordos-1.16.5/forgemods/required/invtweaks-1.16.2-1.0.0.jar",
-            "MD5": "4d74d2c574a054455a1e3f16fc21bd42"
+            "size": 23301,
+            "url": "http://raw.githubusercontent.com/BSG-Walter/archivos-m/main/servers/gordos-1.16.5/forgemods/required/InventoryEssentials_1.16.5-2.3.2.jar",
+            "MD5": "c2ed0c94818c9641f3dd1a578b7a4ab2"
+          }
+        },
+        {
+          "id": "cpw.mods:inventorysorter:18.1.0@jar",
+          "name": "Simple Inventory Sorter",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 49966,
+            "url": "http://raw.githubusercontent.com/BSG-Walter/archivos-m/main/servers/gordos-1.16.5/forgemods/required/inventorysorter-1.16.1-18.1.0.jar",
+            "MD5": "cd324e448f006d6f1a11e58311c36473"
           }
         },
         {
@@ -1180,6 +1300,34 @@
             "size": 840372,
             "url": "http://raw.githubusercontent.com/BSG-Walter/archivos-m/main/servers/gordos-1.16.5/forgemods/required/jei-1.16.5-7.8.0.1011.jar",
             "MD5": "84ac3411ad18ddc4c4e08667f79e2ee3"
+          }
+        },
+        {
+          "id": "journeymap:journeymap:5.8.5p7@jar",
+          "name": "Journeymap",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 6694201,
+            "url": "http://raw.githubusercontent.com/BSG-Walter/archivos-m/main/servers/gordos-1.16.5/forgemods/optionaloff/journeymap-1.16.5-5.8.5p7.jar",
+            "MD5": "d7adb6e8ad034e0a6582183d589d1745"
+          },
+          "required": {
+            "value": false,
+            "def": false
+          }
+        },
+        {
+          "id": "jeresources:jeresources:0.12.2.216@jar",
+          "name": "Just Enough Resources",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 236423,
+            "url": "http://raw.githubusercontent.com/BSG-Walter/archivos-m/main/servers/gordos-1.16.5/forgemods/optionaloff/JustEnoughResources-1.16.5-0.12.2.216.jar",
+            "MD5": "bae8987900050635a142a0e131e225cd"
+          },
+          "required": {
+            "value": false,
+            "def": false
           }
         },
         {
@@ -1226,6 +1374,16 @@
           }
         },
         {
+          "id": "com.cobbs:lordcraft:1.0@jar",
+          "name": "Lord Craft",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 3998132,
+            "url": "http://raw.githubusercontent.com/BSG-Walter/archivos-m/main/servers/gordos-1.16.5/forgemods/required/Lord%20Craft%203.1.2.jar",
+            "MD5": "0acc898c4b4c83d097f2ec57cbe2b9ba"
+          }
+        },
+        {
           "id": "com.gizmo:luggage:1.1@jar",
           "name": "Luggage",
           "type": "ForgeMod",
@@ -1246,6 +1404,16 @@
           }
         },
         {
+          "id": "com.rcx:materialis:1.16.5-2.5.1@jar",
+          "name": "Materialis",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 4445642,
+            "url": "http://raw.githubusercontent.com/BSG-Walter/archivos-m/main/servers/gordos-1.16.5/forgemods/required/materialis-1.16.5-2.5.1.jar",
+            "MD5": "73c0fef3429af0e9ea93941452de5dad"
+          }
+        },
+        {
           "id": "mekanism:mekanism:10.1.2@jar",
           "name": "Mekanism",
           "type": "ForgeMod",
@@ -1263,6 +1431,16 @@
             "size": 985334,
             "url": "http://raw.githubusercontent.com/BSG-Walter/archivos-m/main/servers/gordos-1.16.5/forgemods/required/MekanismGenerators-1.16.5-10.1.2.457.jar",
             "MD5": "8e0854f544510952dda70eb3c840638e"
+          }
+        },
+        {
+          "id": "dev.felnull:mekanismtweaks:1.1@jar",
+          "name": "MekanismTweaks",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 15993,
+            "url": "http://raw.githubusercontent.com/BSG-Walter/archivos-m/main/servers/gordos-1.16.5/forgemods/required/mekanismtweaks-1.1.jar",
+            "MD5": "537fdcfb27e60e28305c7847f619825a"
           }
         },
         {
@@ -1313,6 +1491,26 @@
             "size": 4792769,
             "url": "http://raw.githubusercontent.com/BSG-Walter/archivos-m/main/servers/gordos-1.16.5/forgemods/required/occultism-1.16.5-1.29.1.jar",
             "MD5": "65364e0f8d8ebf9f20ff77fe0cd27f4b"
+          }
+        },
+        {
+          "id": "lain.mods.skins.init:offlineskins:1.16.5-v2@jar",
+          "name": "OfflineSkins",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 96881,
+            "url": "http://raw.githubusercontent.com/BSG-Walter/archivos-m/main/servers/gordos-1.16.5/forgemods/required/OfflineSkins-1.16.5-v2.jar",
+            "MD5": "1b9357cb52dbf9940bf1c45cc822cc09"
+          }
+        },
+        {
+          "id": "com.anar4732:opf:0@jar",
+          "name": "Online Picture Frame 2",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 233037,
+            "url": "http://raw.githubusercontent.com/BSG-Walter/archivos-m/main/servers/gordos-1.16.5/forgemods/required/OPF-1.16.x-v2.jar",
+            "MD5": "b2ef48409eb30e30599f95af7027f7e6"
           }
         },
         {
@@ -1396,6 +1594,36 @@
           }
         },
         {
+          "id": "slimeknights.tconstruct:tconstruct:3.3.4.335@jar",
+          "name": "Tinkers' Construct",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 10927812,
+            "url": "http://raw.githubusercontent.com/BSG-Walter/archivos-m/main/servers/gordos-1.16.5/forgemods/required/TConstruct-1.16.5-3.3.4.335.jar",
+            "MD5": "27978fc015dc861fb4d856d84d123e1a"
+          }
+        },
+        {
+          "id": "mrthomas20121.tinkers_reforged:tinkers_reforged:0.0.6@jar",
+          "name": "Tinkers Reforged",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 617871,
+            "url": "http://raw.githubusercontent.com/BSG-Walter/archivos-m/main/servers/gordos-1.16.5/forgemods/required/Tinkers%20Reforged%201.16.5-0.0.6.jar",
+            "MD5": "0bd63cc122fd61a3d2f604a047a7af74"
+          }
+        },
+        {
+          "id": "com.chirptheboy:tdelight:1.16-1.8@jar",
+          "name": "Tinker's Delight",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 322254,
+            "url": "http://raw.githubusercontent.com/BSG-Walter/archivos-m/main/servers/gordos-1.16.5/forgemods/required/TinkersDelight-1.16-1.8.jar",
+            "MD5": "7e9afbd1671befa3c4ba08346e1ffdcc"
+          }
+        },
+        {
           "id": "net.xalcon:torchmaster:2.3.8@jar",
           "name": "Torchmaster",
           "type": "ForgeMod",
@@ -1426,6 +1654,26 @@
           }
         },
         {
+          "id": "de.teamlapen:vampirism:1.9.10@jar",
+          "name": "Vampirism",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 9520363,
+            "url": "http://raw.githubusercontent.com/BSG-Walter/archivos-m/main/servers/gordos-1.16.5/forgemods/required/Vampirism-1.16.5-1.9.10.jar",
+            "MD5": "30fc79621be9759552fa88e0612a8513"
+          }
+        },
+        {
+          "id": "de.teamlapen:vampirism_integrations:1.6.1@jar",
+          "name": "Vampirism Integrations",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 50935,
+            "url": "http://raw.githubusercontent.com/BSG-Walter/archivos-m/main/servers/gordos-1.16.5/forgemods/required/VampirismIntegrations-1.16.5-1.6.1.jar",
+            "MD5": "a4d92920b28515b0de3450789c43396d"
+          }
+        },
+        {
           "id": "net.blay09.mods:waystones:7.6.4@jar",
           "name": "Waystones",
           "type": "ForgeMod",
@@ -1446,6 +1694,39 @@
           },
           "required": {
             "value": false
+          }
+        },
+        {
+          "id": "Cratch_ST.png",
+          "name": "Cratch_ST.png",
+          "type": "File",
+          "artifact": {
+            "size": 3639,
+            "url": "http://raw.githubusercontent.com/BSG-Walter/archivos-m/main/servers/gordos-1.16.5/files/cachedImages/skins/Cratch_ST.png",
+            "MD5": "c7cfbe6e2ee11b962cb7d066bfd6712b",
+            "path": "cachedImages/skins/Cratch_ST.png"
+          }
+        },
+        {
+          "id": "Jxax.png",
+          "name": "Jxax.png",
+          "type": "File",
+          "artifact": {
+            "size": 1675,
+            "url": "http://raw.githubusercontent.com/BSG-Walter/archivos-m/main/servers/gordos-1.16.5/files/cachedImages/skins/Jxax.png",
+            "MD5": "9d83cbbf2a3ab2202220de468bbee6ad",
+            "path": "cachedImages/skins/Jxax.png"
+          }
+        },
+        {
+          "id": "WalterSit0.png",
+          "name": "WalterSit0.png",
+          "type": "File",
+          "artifact": {
+            "size": 5069,
+            "url": "http://raw.githubusercontent.com/BSG-Walter/archivos-m/main/servers/gordos-1.16.5/files/cachedImages/skins/WalterSit0.png",
+            "MD5": "09a0d17b663931e10a9ff2c421829e20",
+            "path": "cachedImages/skins/WalterSit0.png"
           }
         },
         {
@@ -1490,6 +1771,28 @@
             "url": "http://raw.githubusercontent.com/BSG-Walter/archivos-m/main/servers/gordos-1.16.5/files/config/securitycraft-client.toml",
             "MD5": "db6337bc0f741d409ef03e3e27a5c892",
             "path": "config/securitycraft-client.toml"
+          }
+        },
+        {
+          "id": "vampirism-common.toml",
+          "name": "vampirism-common.toml",
+          "type": "File",
+          "artifact": {
+            "size": 3499,
+            "url": "http://raw.githubusercontent.com/BSG-Walter/archivos-m/main/servers/gordos-1.16.5/files/config/vampirism-common.toml",
+            "MD5": "d3cf2d2f6e01b09044819266403d352f",
+            "path": "config/vampirism-common.toml"
+          }
+        },
+        {
+          "id": "vampirism_integrations-common.toml",
+          "name": "vampirism_integrations-common.toml",
+          "type": "File",
+          "artifact": {
+            "size": 382,
+            "url": "http://raw.githubusercontent.com/BSG-Walter/archivos-m/main/servers/gordos-1.16.5/files/config/vampirism_integrations-common.toml",
+            "MD5": "ff2567294799082fcc769c3a2d7217c1",
+            "path": "config/vampirism_integrations-common.toml"
           }
         }
       ]
