@@ -1697,6 +1697,20 @@
           }
         },
         {
+          "id": "xaero.map:xaeroworldmap:1.38.8@jar",
+          "name": "Xaero's World Map",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 809360,
+            "url": "http://raw.githubusercontent.com/BSG-Walter/archivos-m/main/servers/gordos-1.16.5/forgemods/optionaloff/XaerosWorldMap_1.38.8_Forge_1.16.5.jar",
+            "MD5": "ffc50d2d40f6d87e736af10b057b1e81"
+          },
+          "required": {
+            "value": false,
+            "def": false
+          }
+        },
+        {
           "id": "Cratch_ST.png",
           "name": "Cratch_ST.png",
           "type": "File",
