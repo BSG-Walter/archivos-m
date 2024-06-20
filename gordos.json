@@ -1407,6 +1407,28 @@
           "required": {
             "value": false
           }
+        },
+        {
+          "id": "embeddium-options.json",
+          "name": "embeddium-options.json",
+          "type": "File",
+          "artifact": {
+            "size": 830,
+            "url": "http://raw.githubusercontent.com/BSG-Walter/archivos-m/main/servers/gordos-1.16.5/files/config/embeddium-options.json",
+            "MD5": "6295879bcab4c5e066116dc93d492613",
+            "path": "config/embeddium-options.json"
+          }
+        },
+        {
+          "id": "modernfix-mixins.properties",
+          "name": "modernfix-mixins.properties",
+          "type": "File",
+          "artifact": {
+            "size": 5335,
+            "url": "http://raw.githubusercontent.com/BSG-Walter/archivos-m/main/servers/gordos-1.16.5/files/config/modernfix-mixins.properties",
+            "MD5": "f59b00f24ed95f460174bdf1db54f218",
+            "path": "config/modernfix-mixins.properties"
+          }
         }
       ]
     }
