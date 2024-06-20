@@ -1223,6 +1223,16 @@
           }
         },
         {
+          "id": "de.maxhenkel:gravestone:1.16.5-1.0.6@jar",
+          "name": "Gravestone Mod",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 234677,
+            "url": "http://raw.githubusercontent.com/BSG-Walter/archivos-m/main/servers/gordos-1.16.5/forgemods/required/gravestone-1.16.5-1.0.6.jar",
+            "MD5": "045b52a5d3f9fb01b799930fce8d2e4e"
+          }
+        },
+        {
           "id": "me.ichun.mods:hats:10.3.4@jar",
           "name": "Hats",
           "type": "ForgeMod",
@@ -1258,8 +1268,11 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 23301,
-            "url": "http://raw.githubusercontent.com/BSG-Walter/archivos-m/main/servers/gordos-1.16.5/forgemods/required/InventoryEssentials_1.16.5-2.3.2.jar",
+            "url": "http://raw.githubusercontent.com/BSG-Walter/archivos-m/main/servers/gordos-1.16.5/forgemods/optionalon/InventoryEssentials_1.16.5-2.3.2.jar",
             "MD5": "c2ed0c94818c9641f3dd1a578b7a4ab2"
+          },
+          "required": {
+            "value": false
           }
         },
         {
