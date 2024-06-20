@@ -783,6 +783,16 @@
           }
         },
         {
+          "id": "animals_plus:animals_plus:11.12.21A@jar",
+          "name": "Animals Plus",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 6562495,
+            "url": "http://raw.githubusercontent.com/BSG-Walter/archivos-m/main/servers/gordos-1.16.5/forgemods/required/AnimalsPlus+11.12.21A+(1.16.5).jar",
+            "MD5": "4d5b680709c7476b4df8cf428e0264be"
+          }
+        },
+        {
           "id": "appeng.core:appliedenergistics2:8.4.7@jar",
           "name": "Applied Energistics 2",
           "type": "ForgeMod",
@@ -850,6 +860,16 @@
             "size": 15046675,
             "url": "http://raw.githubusercontent.com/BSG-Walter/archivos-m/main/servers/gordos-1.16.5/forgemods/required/Botania-1.16.5-420.3.jar",
             "MD5": "ae588b4b6d85ed1072bcf6598323c510"
+          }
+        },
+        {
+          "id": "net.darkhax:botanypots:7.1.41@jar",
+          "name": "BotanyPots",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 556567,
+            "url": "http://raw.githubusercontent.com/BSG-Walter/archivos-m/main/servers/gordos-1.16.5/forgemods/required/BotanyPots-1.16.5-7.1.41.jar",
+            "MD5": "f7c0cee5891ab4e97cefc0190bd0a6fe"
           }
         },
         {
@@ -930,6 +950,16 @@
             "size": 966889,
             "url": "http://raw.githubusercontent.com/BSG-Walter/archivos-m/main/servers/gordos-1.16.5/forgemods/required/create-stuff-additions1.16.5_v1.1.6.jar",
             "MD5": "4ff841407a457b88703e4d33d6836eb0"
+          }
+        },
+        {
+          "id": "com.epherical:croptopia:2.0.5@jar",
+          "name": "Croptopia",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1496348,
+            "url": "http://raw.githubusercontent.com/BSG-Walter/archivos-m/main/servers/gordos-1.16.5/forgemods/required/Croptopia-1.16.5-FORGE-2.0.5.jar",
+            "MD5": "e12187654d8cf7f6b981718fa4a8671b"
           }
         },
         {
@@ -1356,6 +1386,16 @@
           }
         },
         {
+          "id": "enemeez.simplefarming:simplefarming:1.16.5-1.3.8@jar",
+          "name": "Simple Farming",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 3145190,
+            "url": "http://raw.githubusercontent.com/BSG-Walter/archivos-m/main/servers/gordos-1.16.5/forgemods/required/simplefarming-1.16.5-1.3.8.jar",
+            "MD5": "24ad2915cfa3bf2803043367315700c0"
+          }
+        },
+        {
           "id": "net.xalcon:torchmaster:2.3.8@jar",
           "name": "Torchmaster",
           "type": "ForgeMod",
@@ -1420,6 +1460,17 @@
           }
         },
         {
+          "id": "iceandfire-client.toml",
+          "name": "iceandfire-client.toml",
+          "type": "File",
+          "artifact": {
+            "size": 321,
+            "url": "http://raw.githubusercontent.com/BSG-Walter/archivos-m/main/servers/gordos-1.16.5/files/config/iceandfire-client.toml",
+            "MD5": "3ce4c63821b13976f4412e1f1df6e87e",
+            "path": "config/iceandfire-client.toml"
+          }
+        },
+        {
           "id": "modernfix-mixins.properties",
           "name": "modernfix-mixins.properties",
           "type": "File",
@@ -1428,6 +1479,17 @@
             "url": "http://raw.githubusercontent.com/BSG-Walter/archivos-m/main/servers/gordos-1.16.5/files/config/modernfix-mixins.properties",
             "MD5": "f59b00f24ed95f460174bdf1db54f218",
             "path": "config/modernfix-mixins.properties"
+          }
+        },
+        {
+          "id": "securitycraft-client.toml",
+          "name": "securitycraft-client.toml",
+          "type": "File",
+          "artifact": {
+            "size": 510,
+            "url": "http://raw.githubusercontent.com/BSG-Walter/archivos-m/main/servers/gordos-1.16.5/files/config/securitycraft-client.toml",
+            "MD5": "db6337bc0f741d409ef03e3e27a5c892",
+            "path": "config/securitycraft-client.toml"
           }
         }
       ]
