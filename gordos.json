@@ -1895,28 +1895,6 @@
           }
         },
         {
-          "id": "journeymap.minimap.config",
-          "name": "journeymap.minimap.config",
-          "type": "File",
-          "artifact": {
-            "size": 1678,
-            "url": "http://raw.githubusercontent.com/BSG-Walter/archivos-m/main/servers/gordos-1.16.5/files/journeymap/config/5.8/journeymap.minimap.config",
-            "MD5": "ab25a5b618f9fd6bdcbae3c22488aae6",
-            "path": "journeymap/config/5.8/journeymap.minimap.config"
-          }
-        },
-        {
-          "id": "options.txt",
-          "name": "options.txt",
-          "type": "File",
-          "artifact": {
-            "size": 13713,
-            "url": "http://raw.githubusercontent.com/BSG-Walter/archivos-m/main/servers/gordos-1.16.5/files/options.txt",
-            "MD5": "61b82ac57abb42829c026799938d6098",
-            "path": "options.txt"
-          }
-        },
-        {
           "id": "PureBDcraft  16x MC116.zip",
           "name": "PureBDcraft  16x MC116.zip",
           "type": "File",
@@ -1947,17 +1925,6 @@
             "url": "http://raw.githubusercontent.com/BSG-Walter/archivos-m/main/servers/gordos-1.16.5/files/resourcepacks/PureBDcraft%20%2064x%20MC116.zip",
             "MD5": "bee54f39b14d1b3a55d8da7b42e701a8",
             "path": "resourcepacks/PureBDcraft  64x MC116.zip"
-          }
-        },
-        {
-          "id": "servers.dat",
-          "name": "servers.dat",
-          "type": "File",
-          "artifact": {
-            "size": 2557,
-            "url": "http://raw.githubusercontent.com/BSG-Walter/archivos-m/main/servers/gordos-1.16.5/files/servers.dat",
-            "MD5": "c1aaeb3d27ed02df09536725ccf128c9",
-            "path": "servers.dat"
           }
         }
       ]
