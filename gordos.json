@@ -1427,6 +1427,36 @@
           }
         },
         {
+          "id": "com.mcwbridges.kikoz:mcwbridges:3.0.0@jar",
+          "name": "Macaw's Bridges",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 588272,
+            "url": "http://raw.githubusercontent.com/BSG-Walter/archivos-m/main/servers/gordos-1.16.5/forgemods/required/mcw-bridges-3.0.0-mc1.16.5forge.jar",
+            "MD5": "be473dd21194800e6079c3b4c853c968"
+          }
+        },
+        {
+          "id": "com.mcwdoors.kikoz:mcwdoors:1.1.1@jar",
+          "name": "Macaw's Doors",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1009705,
+            "url": "http://raw.githubusercontent.com/BSG-Walter/archivos-m/main/servers/gordos-1.16.5/forgemods/required/mcw-doors-1.1.1forge-mc1.16.5.jar",
+            "MD5": "70162e715190a873ad71d07ad572c390"
+          }
+        },
+        {
+          "id": "com.mcwfurnitures.kikoz:mcwfurnitures:3.2.2@jar",
+          "name": "Macaw's Furniture",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1438063,
+            "url": "http://raw.githubusercontent.com/BSG-Walter/archivos-m/main/servers/gordos-1.16.5/forgemods/required/mcw-furniture-3.2.2-mc1.16.5forge.jar",
+            "MD5": "312b8a621bb523e12774807f00697890"
+          }
+        },
+        {
           "id": "mekanism:mekanism:10.1.2@jar",
           "name": "Mekanism",
           "type": "ForgeMod",
@@ -1587,6 +1617,16 @@
           }
         },
         {
+          "id": "cofh.rightclickgetcrops:right_click_get_crops:1.1.0.2@jar",
+          "name": "Right Click, Get Crops",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 179850,
+            "url": "http://raw.githubusercontent.com/BSG-Walter/archivos-m/main/servers/gordos-1.16.5/forgemods/required/right_click_get_crops-1.16.5-1.1.0.2.jar",
+            "MD5": "3a00dca9e3681631c226543f23af0fa8"
+          }
+        },
+        {
           "id": "elucent.rootsclassic:rootsclassic:1.16.5-1.1.18@jar",
           "name": "Roots Classic",
           "type": "ForgeMod",
@@ -1687,6 +1727,16 @@
           }
         },
         {
+          "id": "de.maxhenkel:voicechat:1.16.5-2.5.17@jar",
+          "name": "Simple Voice Chat",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 7701444,
+            "url": "http://raw.githubusercontent.com/BSG-Walter/archivos-m/main/servers/gordos-1.16.5/forgemods/required/voicechat-forge-1.16.5-2.5.17.jar",
+            "MD5": "eb65258e562cf49c9abf450b095f3d7c"
+          }
+        },
+        {
           "id": "net.blay09.mods:waystones:7.6.4@jar",
           "name": "Waystones",
           "type": "ForgeMod",
@@ -1724,14 +1774,14 @@
           }
         },
         {
-          "id": "Cratch_ST.png",
-          "name": "Cratch_ST.png",
+          "id": "Cratch.png",
+          "name": "Cratch.png",
           "type": "File",
           "artifact": {
             "size": 3639,
-            "url": "http://raw.githubusercontent.com/BSG-Walter/archivos-m/main/servers/gordos-1.16.5/files/cachedImages/skins/Cratch_ST.png",
+            "url": "http://raw.githubusercontent.com/BSG-Walter/archivos-m/main/servers/gordos-1.16.5/files/cachedImages/skins/Cratch.png",
             "MD5": "c7cfbe6e2ee11b962cb7d066bfd6712b",
-            "path": "cachedImages/skins/Cratch_ST.png"
+            "path": "cachedImages/skins/Cratch.png"
           }
         },
         {
@@ -1820,6 +1870,50 @@
             "url": "http://raw.githubusercontent.com/BSG-Walter/archivos-m/main/servers/gordos-1.16.5/files/config/vampirism_integrations-common.toml",
             "MD5": "ff2567294799082fcc769c3a2d7217c1",
             "path": "config/vampirism_integrations-common.toml"
+          }
+        },
+        {
+          "id": "PureBDcraft  16x MC116.zip",
+          "name": "PureBDcraft  16x MC116.zip",
+          "type": "File",
+          "artifact": {
+            "size": 15931026,
+            "url": "http://raw.githubusercontent.com/BSG-Walter/archivos-m/main/servers/gordos-1.16.5/files/resourcepacks/PureBDcraft%20%2016x%20MC116.zip",
+            "MD5": "1fe541f50572621a0d49755cffec8e7b",
+            "path": "resourcepacks/PureBDcraft  16x MC116.zip"
+          }
+        },
+        {
+          "id": "PureBDcraft  32x MC116.zip",
+          "name": "PureBDcraft  32x MC116.zip",
+          "type": "File",
+          "artifact": {
+            "size": 18773112,
+            "url": "http://raw.githubusercontent.com/BSG-Walter/archivos-m/main/servers/gordos-1.16.5/files/resourcepacks/PureBDcraft%20%2032x%20MC116.zip",
+            "MD5": "50c184b1b0271f009e7e62872a407699",
+            "path": "resourcepacks/PureBDcraft  32x MC116.zip"
+          }
+        },
+        {
+          "id": "PureBDcraft  64x MC116.zip",
+          "name": "PureBDcraft  64x MC116.zip",
+          "type": "File",
+          "artifact": {
+            "size": 27972312,
+            "url": "http://raw.githubusercontent.com/BSG-Walter/archivos-m/main/servers/gordos-1.16.5/files/resourcepacks/PureBDcraft%20%2064x%20MC116.zip",
+            "MD5": "bee54f39b14d1b3a55d8da7b42e701a8",
+            "path": "resourcepacks/PureBDcraft  64x MC116.zip"
+          }
+        },
+        {
+          "id": "servers.dat",
+          "name": "servers.dat",
+          "type": "File",
+          "artifact": {
+            "size": 2557,
+            "url": "http://raw.githubusercontent.com/BSG-Walter/archivos-m/main/servers/gordos-1.16.5/files/servers.dat",
+            "MD5": "c1aaeb3d27ed02df09536725ccf128c9",
+            "path": "servers.dat"
           }
         }
       ]
