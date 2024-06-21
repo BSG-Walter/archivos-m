@@ -3,9 +3,9 @@
   "meta": {
     "version": "1.0.0",
     "name": "gordos (Minecraft 1.16.5)",
-    "description": "gordos Running Minecraft 1.16.5 (Forge v36.2.42)",
+    "description": "maincra una vez mas",
     "icon": "How to set the server icon: https://github.com/dscalzi/Nebula#setting-the-server-icon",
-    "address": "localhost:25565",
+    "address": "144.217.150.16:25580",
     "discord": {
       "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
       "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",

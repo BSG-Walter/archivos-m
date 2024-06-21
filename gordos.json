@@ -10,10 +10,10 @@
     {
       "id": "gordos-1.16.5",
       "name": "gordos (Minecraft 1.16.5)",
-      "description": "gordos Running Minecraft 1.16.5 (Forge v36.2.42)",
+      "description": "maincra una vez mas",
       "icon": null,
       "version": "1.0.0",
-      "address": "localhost:25565",
+      "address": "144.217.150.16:25580",
       "minecraftVersion": "1.16.5",
       "discord": {
         "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
@@ -1321,12 +1321,11 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 6694201,
-            "url": "http://raw.githubusercontent.com/BSG-Walter/archivos-m/main/servers/gordos-1.16.5/forgemods/optionaloff/journeymap-1.16.5-5.8.5p7.jar",
+            "url": "http://raw.githubusercontent.com/BSG-Walter/archivos-m/main/servers/gordos-1.16.5/forgemods/optionalon/journeymap-1.16.5-5.8.5p7.jar",
             "MD5": "d7adb6e8ad034e0a6582183d589d1745"
           },
           "required": {
-            "value": false,
-            "def": false
+            "value": false
           }
         },
         {
@@ -1752,11 +1751,12 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 1375334,
-            "url": "http://raw.githubusercontent.com/BSG-Walter/archivos-m/main/servers/gordos-1.16.5/forgemods/optionalon/Xaeros_Minimap_24.2.1_Forge_1.16.5.jar",
+            "url": "http://raw.githubusercontent.com/BSG-Walter/archivos-m/main/servers/gordos-1.16.5/forgemods/optionaloff/Xaeros_Minimap_24.2.1_Forge_1.16.5.jar",
             "MD5": "a7ffff4398a235c7211031f2fb8e20da"
           },
           "required": {
-            "value": false
+            "value": false,
+            "def": false
           }
         },
         {
@@ -1785,6 +1785,17 @@
           }
         },
         {
+          "id": "eltormin.png",
+          "name": "eltormin.png",
+          "type": "File",
+          "artifact": {
+            "size": 818,
+            "url": "http://raw.githubusercontent.com/BSG-Walter/archivos-m/main/servers/gordos-1.16.5/files/cachedImages/skins/eltormin.png",
+            "MD5": "0ad0453a980076c2a37a2e1ec290364c",
+            "path": "cachedImages/skins/eltormin.png"
+          }
+        },
+        {
           "id": "Jxax.png",
           "name": "Jxax.png",
           "type": "File",
@@ -1793,6 +1804,17 @@
             "url": "http://raw.githubusercontent.com/BSG-Walter/archivos-m/main/servers/gordos-1.16.5/files/cachedImages/skins/Jxax.png",
             "MD5": "9d83cbbf2a3ab2202220de468bbee6ad",
             "path": "cachedImages/skins/Jxax.png"
+          }
+        },
+        {
+          "id": "tormin.png",
+          "name": "tormin.png",
+          "type": "File",
+          "artifact": {
+            "size": 818,
+            "url": "http://raw.githubusercontent.com/BSG-Walter/archivos-m/main/servers/gordos-1.16.5/files/cachedImages/skins/tormin.png",
+            "MD5": "0ad0453a980076c2a37a2e1ec290364c",
+            "path": "cachedImages/skins/tormin.png"
           }
         },
         {
@@ -1870,6 +1892,17 @@
             "url": "http://raw.githubusercontent.com/BSG-Walter/archivos-m/main/servers/gordos-1.16.5/files/config/vampirism_integrations-common.toml",
             "MD5": "ff2567294799082fcc769c3a2d7217c1",
             "path": "config/vampirism_integrations-common.toml"
+          }
+        },
+        {
+          "id": "options.txt",
+          "name": "options.txt",
+          "type": "File",
+          "artifact": {
+            "size": 13713,
+            "url": "http://raw.githubusercontent.com/BSG-Walter/archivos-m/main/servers/gordos-1.16.5/files/options.txt",
+            "MD5": "61b82ac57abb42829c026799938d6098",
+            "path": "options.txt"
           }
         },
         {
