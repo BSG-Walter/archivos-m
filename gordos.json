@@ -1895,6 +1895,17 @@
           }
         },
         {
+          "id": "journeymap.minimap.config",
+          "name": "journeymap.minimap.config",
+          "type": "File",
+          "artifact": {
+            "size": 1678,
+            "url": "http://raw.githubusercontent.com/BSG-Walter/archivos-m/main/servers/gordos-1.16.5/files/journeymap/config/5.8/journeymap.minimap.config",
+            "MD5": "ab25a5b618f9fd6bdcbae3c22488aae6",
+            "path": "journeymap/config/5.8/journeymap.minimap.config"
+          }
+        },
+        {
           "id": "options.txt",
           "name": "options.txt",
           "type": "File",
