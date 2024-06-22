@@ -1796,6 +1796,17 @@
           }
         },
         {
+          "id": "IsaChan.png",
+          "name": "IsaChan.png",
+          "type": "File",
+          "artifact": {
+            "size": 1432,
+            "url": "http://raw.githubusercontent.com/BSG-Walter/archivos-m/main/servers/gordos-1.16.5/files/cachedImages/skins/IsaChan.png",
+            "MD5": "22c82002f1673835c59aad4de6f5c018",
+            "path": "cachedImages/skins/IsaChan.png"
+          }
+        },
+        {
           "id": "Jxax.png",
           "name": "Jxax.png",
           "type": "File",
