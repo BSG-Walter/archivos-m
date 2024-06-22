@@ -427,6 +427,16 @@
           }
         },
         {
+          "id": "com.mrcrayfish:configured:1.5.4@jar",
+          "name": "Configured",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 131868,
+            "url": "http://raw.githubusercontent.com/BSG-Walter/archivos-m/main/servers/gordos-1.16.5/forgemods/required/[c]configured-1.5.4-1.16.5.jar",
+            "MD5": "e1c1b16dad2abee5c49eccf804b003cd"
+          }
+        },
+        {
           "id": "top.theillusivec4:curios:1.16.5-4.1.0.0@jar",
           "name": "Curios API",
           "type": "ForgeMod",
@@ -1233,16 +1243,6 @@
           }
         },
         {
-          "id": "me.ichun.mods:hats:10.3.4@jar",
-          "name": "Hats",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 1544164,
-            "url": "http://raw.githubusercontent.com/BSG-Walter/archivos-m/main/servers/gordos-1.16.5/forgemods/required/Hats-1.16.5-10.3.4.jar",
-            "MD5": "ba93d2d757405370991503a286706105"
-          }
-        },
-        {
           "id": "com.github.alexthe666:iceandfire:2.1.12-1.16.5-patch-1@jar",
           "name": "Ice and Fire",
           "type": "ForgeMod",
@@ -1693,6 +1693,16 @@
             "size": 5698994,
             "url": "http://raw.githubusercontent.com/BSG-Walter/archivos-m/main/servers/gordos-1.16.5/forgemods/required/UNDEADv.1.7.b.release+Biome.jar",
             "MD5": "a1ae941130ab9090d7033f1f21c11992"
+          }
+        },
+        {
+          "id": "meldexun.unifiedresources:unifiedresources:2.0.0@jar",
+          "name": "UnifiedResources",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 52236,
+            "url": "http://raw.githubusercontent.com/BSG-Walter/archivos-m/main/servers/gordos-1.16.5/forgemods/required/UnifiedResources-1.16.5-2.0.0.jar",
+            "MD5": "253440e237ca805c47a66146e7494499"
           }
         },
         {
