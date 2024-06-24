@@ -477,13 +477,13 @@
           }
         },
         {
-          "id": "me.ichun.mods:ichunutil:10.7.0@jar",
-          "name": "IChunUtil",
+          "id": "mod.lucky77:lucky77:v01@jar",
+          "name": "Lucky77",
           "type": "ForgeMod",
           "artifact": {
-            "size": 597557,
-            "url": "http://raw.githubusercontent.com/BSG-Walter/archivos-m/main/servers/gordos-1.16.5/forgemods/required/[c]iChunUtil-1.16.5-10.7.0.jar",
-            "MD5": "7e7726b92b43e65e10cf7742ee32fcb6"
+            "size": 33763,
+            "url": "http://raw.githubusercontent.com/BSG-Walter/archivos-m/main/servers/gordos-1.16.5/forgemods/required/[c]Lucky77_1.16.5_v01.jar",
+            "MD5": "e71afcd9e06b1d46bd7b8d7152fb21c5"
           }
         },
         {
@@ -494,6 +494,16 @@
             "size": 806737,
             "url": "http://raw.githubusercontent.com/BSG-Walter/archivos-m/main/servers/gordos-1.16.5/forgemods/required/[c]Mantle-1.16.5-1.6.157.jar",
             "MD5": "e5ee7cb043a90615d0fdacffbc1f6790"
+          }
+        },
+        {
+          "id": "de.melanx:morevanillalib:1.4.1@jar",
+          "name": "MoreVanillaLib",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 105524,
+            "url": "http://raw.githubusercontent.com/BSG-Walter/archivos-m/main/servers/gordos-1.16.5/forgemods/required/[c]morevanillalib-1.16.4-1.4.1.jar",
+            "MD5": "cd6a5ae08ec018af252b6662911550e5"
           }
         },
         {
@@ -544,6 +554,16 @@
             "size": 218460,
             "url": "http://raw.githubusercontent.com/BSG-Walter/archivos-m/main/servers/gordos-1.16.5/forgemods/required/[c]selene-1.16.5-1.9.0.jar",
             "MD5": "2edb1ffe6040a68d242bd80cec3cb98d"
+          }
+        },
+        {
+          "id": "info.u_team.u_team_core:uteamcore:3.2.1.295@jar",
+          "name": "U Team Core",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 399246,
+            "url": "http://raw.githubusercontent.com/BSG-Walter/archivos-m/main/servers/gordos-1.16.5/forgemods/required/[c]u_team_core-forge-1.16.5-3.2.1.295.jar",
+            "MD5": "883eda5b86a8de9395f98e400578f653"
           }
         },
         {
@@ -933,6 +953,16 @@
           }
         },
         {
+          "id": "mod.casinocraft:casinocraft:v19@jar",
+          "name": "CasinoCraft",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2100583,
+            "url": "http://raw.githubusercontent.com/BSG-Walter/archivos-m/main/servers/gordos-1.16.5/forgemods/required/CasinoCraft_1.16.5_v19.jar",
+            "MD5": "69b2a84454af1c3bf25ba0419f73978e"
+          }
+        },
+        {
           "id": "dan200.computercraft:computercraft:1.101.3@jar",
           "name": "CC: Tweaked",
           "type": "ForgeMod",
@@ -970,6 +1000,16 @@
             "size": 1283988,
             "url": "http://raw.githubusercontent.com/BSG-Walter/archivos-m/main/servers/gordos-1.16.5/forgemods/required/chiselsandbits-1.0.63.jar",
             "MD5": "928060d0c6042fdca4f937c2a4c5d854"
+          }
+        },
+        {
+          "id": "net.minecraftforge.lex.cngbb:chunknogobyebye:1.16.5-1.3.0@jar",
+          "name": "ChunkNoGoByeBye",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 25635,
+            "url": "http://raw.githubusercontent.com/BSG-Walter/archivos-m/main/servers/gordos-1.16.5/forgemods/required/ChunkNoGoByeBye-1.16.5-1.3.0.jar",
+            "MD5": "eab9a76bfa203acd58f648867223e356"
           }
         },
         {
@@ -1210,16 +1250,6 @@
             "size": 564724,
             "url": "http://raw.githubusercontent.com/BSG-Walter/archivos-m/main/servers/gordos-1.16.5/forgemods/required/GatewaysToEternity-1.16.5-1.0.2.jar",
             "MD5": "034549a7b8995607693389126185c380"
-          }
-        },
-        {
-          "id": "mokiyoki.enhancedanimals:eanimod:0_6_40@jar",
-          "name": "Genetic Animals",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 10331767,
-            "url": "http://raw.githubusercontent.com/BSG-Walter/archivos-m/main/servers/gordos-1.16.5/forgemods/required/GeneticAnimals-0_6_40.jar",
-            "MD5": "24352e0863b2c70afaf300273dd3dd9a"
           }
         },
         {
@@ -1486,16 +1516,6 @@
           }
         },
         {
-          "id": "me.ichun.mods:morph:10.2.1@jar",
-          "name": "Morph",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 1277555,
-            "url": "http://raw.githubusercontent.com/BSG-Walter/archivos-m/main/servers/gordos-1.16.5/forgemods/required/Morph-1.16.5-10.2.1.jar",
-            "MD5": "fef30d26302d5c207a05fb0bb51d9713"
-          }
-        },
-        {
           "id": "com.chaosthedude:naturescompass:1.16.5-1.9.1-forge@jar",
           "name": "Nature's Compass",
           "type": "ForgeMod",
@@ -1716,6 +1736,16 @@
           }
         },
         {
+          "id": "info.u_team.useful_backpacks:usefulbackpacks:1.12.1.103@jar",
+          "name": "Useful Backpacks",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 172481,
+            "url": "http://raw.githubusercontent.com/BSG-Walter/archivos-m/main/servers/gordos-1.16.5/forgemods/required/useful_backpacks-1.16.5-1.12.1.103.jar",
+            "MD5": "896cb20ec879a111e3b5af0947288091"
+          }
+        },
+        {
           "id": "de.teamlapen:vampirism:1.9.10@jar",
           "name": "Vampirism",
           "type": "ForgeMod",
@@ -1736,13 +1766,23 @@
           }
         },
         {
-          "id": "de.maxhenkel:voicechat:1.16.5-2.5.17@jar",
-          "name": "Simple Voice Chat",
+          "id": "de.melanx:vanillaexcavators:2.2.1@jar",
+          "name": "Vanilla Excavators",
           "type": "ForgeMod",
           "artifact": {
-            "size": 7701444,
-            "url": "http://raw.githubusercontent.com/BSG-Walter/archivos-m/main/servers/gordos-1.16.5/forgemods/required/voicechat-forge-1.16.5-2.5.17.jar",
-            "MD5": "eb65258e562cf49c9abf450b095f3d7c"
+            "size": 67107,
+            "url": "http://raw.githubusercontent.com/BSG-Walter/archivos-m/main/servers/gordos-1.16.5/forgemods/required/vanillaexcavators-1.16.4-2.2.1.jar",
+            "MD5": "6f5ae53f5dd440b7561fdbbfe67e7b42"
+          }
+        },
+        {
+          "id": "de.melanx:vanillahammers:2.2.0@jar",
+          "name": "Vanilla Hammers",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 68362,
+            "url": "http://raw.githubusercontent.com/BSG-Walter/archivos-m/main/servers/gordos-1.16.5/forgemods/required/vanillahammers-1.16.4-2.2.0.jar",
+            "MD5": "766fb42d9d59105dd3aa2b42f188b9cc"
           }
         },
         {
