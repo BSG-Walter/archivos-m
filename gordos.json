@@ -813,6 +813,16 @@
           }
         },
         {
+          "id": "de.srendi:advancedperipherals:0.7.10r@jar",
+          "name": "Advanced Peripherals",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 671744,
+            "url": "http://raw.githubusercontent.com/BSG-Walter/archivos-m/main/servers/gordos-1.16.5/forgemods/required/advancedperipherals-1.16.5-0.7.10r.jar",
+            "MD5": "edc9682e062fcda8f2541955bb26a786"
+          }
+        },
+        {
           "id": "de.melanx:aiotbotania:1.8.4@jar",
           "name": "AIOT Botania",
           "type": "ForgeMod",
