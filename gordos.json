@@ -1706,6 +1706,16 @@
           }
         },
         {
+          "id": "com.tom.storagemod:toms_storage:1.2.23@jar",
+          "name": "Tom's Simple Storage Mod",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 316527,
+            "url": "http://raw.githubusercontent.com/BSG-Walter/archivos-m/main/servers/gordos-1.16.5/forgemods/required/toms_storage-1.16.5-1.2.23.jar",
+            "MD5": "9d0d1fa66e48290b563de573641a3afa"
+          }
+        },
+        {
           "id": "net.xalcon:torchmaster:2.3.8@jar",
           "name": "Torchmaster",
           "type": "ForgeMod",
